@@ -151,7 +151,7 @@
 	      console.log("");
 	      console.log("");
 	      console.log("%c Now try another function: ", "background:rgb(36, 221, 154)");
-	      console.log("%c Try calling bribe() and pass in what you think you would need to bribe me with to come work for you. ", "background:rgb(36, 221, 154)");
+	      console.log("%c Try calling bribe() and pass in a string of what you think you would need to bribe me with to come work for you. ", "background:rgb(36, 221, 154)");
 	      console.log("%c Hint read the portfolio. . . it's pretty obvious. ", "background:rgb(36, 221, 154)");
 	    };
 

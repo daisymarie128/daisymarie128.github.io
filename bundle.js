@@ -142,7 +142,7 @@
 	    console.log("%c Please excuse some of my code ", "background:yellow");
 	    console.log("%c I built this very quickly and cut a few corners. ", "background:yellow");
 	    console.log("");
-	    console.log("%c Try some code ", "background:dodgerblue; color:white;");
+	    console.log("%c Try some code, try calling a function. ", "background:dodgerblue; color:white;");
 	    console.log("%c A cat says? ", "background:dodgerblue; color:white;");
 
 	    window.meow = function () {

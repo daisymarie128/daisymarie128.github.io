@@ -126,7 +126,6 @@
 
 	var appHistory = (0, _reactRouter.useRouterHistory)(_history.createHashHistory)({ queryKey: false });
 
-	// var theQuote = 'yep, i needed a whole new page to show you this';
 	var App = _react2['default'].createClass({
 	  displayName: 'App',
 
@@ -25837,16 +25836,11 @@
 							renderer.setSize(window.innerWidth, window.innerHeight);
 					}
 
-					function counter() {
-							uniforms.u_time.value -= 0.005;
-							console.log('reset');
-					}
 					var direction = 'up';
 					function animate() {
 							if (direction == 'down') {
 									if (uniforms.u_time.value <= 0) {
 											direction = 'up';
-											console.log('go up now');
 									}
 									uniforms.u_time.value -= 0.05;
 							} else if (direction == 'up') {
@@ -25873,15 +25867,6 @@
 			},
 
 			handleResize: function handleResize() {
-					// Scene Dimensions
-					// console.log('resize')
-					// var element = document.getElementsByTagName('body')[0];
-					//   var sceneWidth = element.offsetWidth;
-					//   var sceneHeight = element.offsetHeight;
-
-					//   // RENDERER
-					//   renderer.setSize(sceneWidth, sceneHeight);
-
 					renderer.setSize(window.innerWidth, window.innerHeight);
 					camera.aspect = window.innerWidth / window.innerHeight;
 					camera.updateProjectionMatrix();
@@ -26941,12 +26926,10 @@
 				layoutMode: 'fitRows'
 			});
 
-			// $.get(this.props.source, function(result) {
 			var _this = this;
 			d3.json('../data/projects.json', function (d) {
 				_this.setState({ projects: d });
 			});
-			// }.bind(this));
 		},
 
 		generateRandomNumber: function generateRandomNumber() {
@@ -27048,18 +27031,10 @@
 					'div',
 					{ className: 'grid' },
 					projects.map(function (t) {
-						// var string = t.content;
-						// var maxLength = 70; // maximum number of characters to extract
-
-						// //trim the string to the maximum length
-						// var trimmedString = string.substr(0, maxLength);
-
-						// //re-trim if we are in the middle of a word
-						// trimmedString = trimmedString.substr(0, Math.min(trimmedString.length, trimmedString.lastIndexOf(" ")))
 						var bgImage = 'url(/assets/shape-' + _this2.generateRandomNumber() + '.svg)';
 						return [_react2['default'].createElement(
 							_reactRouter.Link,
-							{ to: '/portfolio/' + t.id, className: "element-item " + t.filterTags, key: t.id },
+							{ key: t.id, to: '/portfolio/' + t.id, className: "element-item " + t.filterTags },
 							_react2['default'].createElement(
 								'h1',
 								null,
@@ -27076,19 +27051,6 @@
 			);
 		}
 	});
-
-	// {projects.map(t =>
-	// 	<div className="element-item" key={t.id}>{t.name}</div>
-	// )}
-
-	// {(() => {
-	// 	if(projects){
-	// 		projects.map(function(project) {
-	// 			return
-	// 			<div className="project">bla</div>
-	// 		})
-	// 	}
-	// })()}
 
 	exports['default'] = Projects;
 	module.exports = exports['default'];
@@ -31410,8 +31372,6 @@
 	    var currentProject = this.state.currentProjects || [];
 	    var images = currentProject.image || [];
 	    var tags = currentProject.tagList || [];
-	    console.log(images);
-	    console.log(tags);
 	    return _react2['default'].createElement(
 	      'div',
 	      null,
@@ -31643,10 +31603,10 @@
 						divStyle.backgroundImage = "url('" + skill.featureImage + "')";
 						return _react2['default'].createElement(
 							_reactRouter.Link,
-							{ to: '/skills/' + skill.id },
+							{ key: skill.id, to: '/skills/' + skill.id },
 							_react2['default'].createElement(
 								'div',
-								{ className: 'skill-item', key: skill.id },
+								{ className: 'skill-item' },
 								_react2['default'].createElement(
 									'h3',
 									null,

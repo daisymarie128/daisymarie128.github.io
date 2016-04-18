@@ -159,7 +159,7 @@
 	      var kitten = document.getElementById('kittens').innerHTML;
 	      var tryAgain = document.getElementById('wrong').innerHTML;
 	      console.log(something);
-	      if (something == "kittens" || something == "cats" || something == "cat" || something == "kitten") {
+	      if (something == "kittens" || something == "kitties" || something == "cats" || something == "cat" || something == "kitten" || something == "a lot of cats" || something == "all of the kitties" || something == "so many kitties") {
 	        console.log('%c THATS A BINGO! ', "background:#E83FFF; color:white");
 	        console.log(kitten);
 	        console.log('%c THATS A BINGO! ', "background:#E83FFF; color:white");

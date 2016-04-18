@@ -1,0 +1,148 @@
+[{
+        "id": 1,
+        "catergory": "THREEJS",
+        "title": "Sprites - Threejs",
+        "date": "05 April 2015",
+        "content": "This was made during the start of my two months off, I aimed to just see what I could animate with threejs and wanted to understand more about sprites and using them as textures.",
+        "featureImage": "/assets/skills-images/shaders/gradient.png",
+        "image": [
+          "/assets/skills-images/shaders/gradient.png"
+        ],
+        "tags": [
+          "rails",
+          "web"
+        ],
+        "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-03/sprite-sphere/"
+      },
+      {
+        "id": 2,
+        "catergory": "SHADERS",
+        "title": "Gradient Color Changer",
+        "date": "02 April 2016",
+        "content": "After reading up on shaders and using them with threejs, I wanted to experiment with something not to difficult to get started with. For this experiment I focused on the fragment shader and how to create a gradient and then how to change it dynamically.",
+        "featureImage": "/assets/skills-images/shaders/gradient.png",
+        "image": [
+          "/assets/skills-images/shaders/gradient.png"
+        ],
+        "tags": [
+          "rails",
+          "web"
+        ],
+        "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-02/beginner-shader-practice/boilerplate/"
+      },
+      {
+        "id": 3,
+        "catergory": "SHADERS",
+        "title": "Raindow Spinner",
+        "date": "02 April 2016",
+        "content": "After playing around with making linear gradients with shaders I tried to make a radial gradient experimenting while also playing with colors. Learning how to write a function in the shaders and also how to convert hsb to rgb.",
+        "featureImage": "/assets/skills-images/shaders/gradient.png",
+        "image": [
+          "/assets/skills-images/animation/oceans.png"
+        ],
+        "tags": [
+          "javascript",
+          "threejs",
+          "glsl"
+        ],
+        "projectLink": "http://photocrapper.herokuapp.com/"
+      },
+      {
+        "id": 4,
+        "catergory": "THREEJS SHADERS",
+        "title": "Displacement Shader",
+        "date": "03 April 2016",
+        "content": "Trying to experiment with the vertex shader and how to animate an object. This was a little confusing to me at first, also ran into some problems with holes in my geometry after getting the animation to work.",
+        "featureImage": "/assets/skills-images/shaders/displacement-shader.png",
+        "image": [
+          "/assets/skills-images/shaders/displacement-shader.png"
+        ],
+        "tags": [
+         "javascript",
+          "threejs",
+          "glsl"
+        ],
+        "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-04/displacement-maps/"
+      },
+      {
+        "id": 5,
+        "catergory": "THREEJS",
+        "title": "POSTRENDERING EFFECT",
+        "date": "01 September 2015",
+        "content": "Experimenting with adding a built in threejs postrendering effect to my scene. While also adding and deleting geometry from a scene.",
+        "featureImage": "/assets/skills-images/shaders/postrendering-effect.png",
+        "image": [
+          "/assets/skills-images/shaders/postrendering-effect.png"
+        ],
+        "tags": [
+          "javascript",
+          "threejs"
+        ],
+        "projectLink": "http://photocrapper.herokuapp.com/"
+      },
+      {
+        "id": 6,
+        "catergory": "THREEJS SHADERS",
+        "title": "Abstract Animations",
+        "date": "05 April 2016",
+        "content": "Trying to understand vertex shaders more and practice animating and distorting shapes.",
+        "featureImage": "/assets/skills-images/shaders/abstract.jpg",
+        "image": [
+          "/assets/skills-images/shaders/abstract.jpg"
+        ],
+        "tags": [
+          "javascript",
+          "threejs",
+          "glsl"
+        ],
+        "projectLink": "https://twitter.com/daisysmells/status/720518124722917376"
+      },
+      {
+        "id": 7,
+        "catergory": "THREEJS SHADERS",
+        "title": "Clocks",
+        "date": "01 June 2015",
+        "content": "Something I created while working alongside Nicci Hurwitz at Google Creative Lab Sydney. This is one of the first things I had ever created and was proud of. At the time I was very new to creative coding and had very little experience with JS or programming in general. After being in a meeting and hearing Nicc's idea I was puzzled at how it was even possible. However after 30minutes of planning and deconstructing the problem I had a plan on how to make it and after a few hours of reading up on Angular I had a working prototype. I'm proud of this experiment because I saw how simple a complex problem could be, this experiment was built using just CSS and Angular.",
+        "featureImage": "/assets/skills-images/shaders/gradient.png",
+        "image": [
+          "/assets/skills-images/animation/oceans.png"
+        ],
+        "tags": [
+          "javascript",
+          "Angular",
+          "CSS"
+        ],
+        "projectLink": "http://photocrapper.herokuapp.com/"
+      },
+      {
+        "id": 8,
+        "catergory": "3D GRAPHIC",
+        "title": "Oceans",
+        "date": "01 September 2012",
+        "content": "Photocrapper was designed as a simple app where you could upload images of your choice where you could follow friends and view their images. The goal with this app was to be a learning experience for me to understand and enhance my programming skills. I aimed to understand how to create a simple app like instagram without the cool filters. This app was created as my first project and was a great learning experience, I intend on taking this further and adding some filters and sharing features.",
+        "featureImage": "/assets/skills-images/shaders/gradient.png",
+        "image": [
+          "/assets/skills-images/animation/oceans.png"
+        ],
+        "tags": [
+          "rails",
+          "web"
+        ],
+        "projectLink": "https://vimeo.com/105139261"
+      },
+      {
+        "id": 9,
+        "catergory": "GRAPHIC ANIMATION",
+        "title": "Orb",
+        "date": "01 September 2012",
+        "content": "This was something I created in 2012 as a test for what was possible to do in After Effects, and how to create a 3D particle feel without using any 3D software at all. It uses a set of images overlayed on each other and inimated effects to give the illussion of a 3D particle effect.",
+        "featureImage": "/assets/skills-images/shaders/gradient.png",
+        "image": [
+          "/assets/skills-images/animation/oceans.png"
+        ],
+        "tags": [
+          "After Effects",
+          "AE Script"
+        ],
+        "projectLink": "https://vimeo.com/105139261"
+      }]

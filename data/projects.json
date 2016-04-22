@@ -4,7 +4,7 @@
         "tagList":["javascript", "SCSS", "Angular", "Grunt", "Gulp"],
         "title": "Editions at Play",
         "date": "January 2016",
-        "content": "Editions At Play is an initiative by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the web. Editions At Play is an initiative by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the web.",
+        "content": "Editions At Play is an initiative by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the web.",
         "featureImage": "/assets/project-images/eap-logo.gif",
         "image": [ 
           "/assets/project-images/eap/eap-logo.gif",
@@ -19,7 +19,7 @@
         "date": "September 2015",
         "filterTags": "code javascript frameworks animation",
         "tagList": ["javascript", "SCSS", "Angular", "Grunt", "Gulp", "Device-motion"],
-        "content": "The about book was a promational website to promote the project Editions At Play befefore it launched. It was acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions understand more about Editions At Play.",
+        "content": "The about book was a promotional website to promote the project Editions At Play befefore it launched. It was acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions understand more about Editions At Play.",
         "featureImage": "images/threedee-insitu.png",
         "image": [
         ],

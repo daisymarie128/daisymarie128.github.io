@@ -26994,11 +26994,6 @@
 					),
 					_react2['default'].createElement(
 						'div',
-						{ className: 'filter .code', onClick: this.filter.bind(this, '.code') },
-						'code'
-					),
-					_react2['default'].createElement(
-						'div',
 						{ className: 'filter .design', onClick: this.filter.bind(this, '.design') },
 						'design'
 					),
@@ -27006,6 +27001,11 @@
 						'div',
 						{ className: 'filter .animation', onClick: this.filter.bind(this, '.animation') },
 						'animation'
+					),
+					_react2['default'].createElement(
+						'div',
+						{ className: 'filter .code', onClick: this.filter.bind(this, '.code') },
+						'code'
 					),
 					_react2['default'].createElement('br', null),
 					_react2['default'].createElement(

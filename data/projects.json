@@ -104,9 +104,10 @@
         "date": "January 2015",
         "filterTags": "javascript design ",
         "tagList": ["Javascript", "Leap Motion", "Design"],
-        "content": "This project was built using vanilla JS and a Leap Motion, I worked on while I was at Arup Digital. It was for a work client party to showcase different things that we could do. We were given sometime to think about what we could build for the event and planned that it should be something engaging and playful. It was nice to see this whole project come together in a days work, while playing with something new and interesting.",
+        "content": "This project was built using vanilla JS and a Leap Motion, I worked on this while I was at Arup Digital. It was for a work client party to showcase different things that we could do, to play the game visitors were invited to use the leap motion as the controller for the game. People would just have to move there hand left or right to move there paddle and play against a computer or another player. We were given sometime to think about what we could build for the event and planned that it should be something engaging and playful. It was nice to see this whole project come together in a days work, while playing with something new and interesting.",
         "featureImage": "images/specimen-insitu-01.png",
         "image": [
+          "/assets/project-images/arup/leapmotion.png",
           "/assets/project-images/arup/pong.png"
         ],
         "video": [

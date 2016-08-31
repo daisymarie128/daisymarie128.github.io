@@ -25720,9 +25720,7 @@
 		},
 
 		componentDidMount: function componentDidMount() {
-
 			window.addEventListener('resize', this.handleResize);
-
 			var sideQuote = document.getElementsByClassName('side-quote-text')[0];
 			sideQuote.innerHTML = "Daisy Smith Creative Coder";
 			this.initThree();
@@ -25733,9 +25731,7 @@
 			/* ----------------------------
 	  threejs code
 	  ------------------------------------ */
-
 			var self = this;
-
 			var container, composer, color, geometry, material, amount, cooordinates, object, sphere, glitchPass, light;
 			var uniforms;
 
@@ -25746,29 +25742,9 @@
 
 				// set up my sphere coordinates
 				cooordinates = [{
-					x: -30,
-					y: 20,
-					z: 25
-				}, {
-					x: 100,
-					y: 20,
+					x: 0,
+					y: -10,
 					z: 30
-				}, {
-					x: 5,
-					y: -60,
-					z: 20
-				}, {
-					x: 30,
-					y: -170,
-					z: 10
-				}, {
-					x: 160,
-					y: 160,
-					z: -5
-				}, {
-					x: 15,
-					y: 100,
-					z: 15
 				}];
 
 				container = document.getElementById('home-page');
@@ -25782,8 +25758,6 @@
 				renderer.setSize(window.innerWidth, window.innerHeight);
 
 				object = new THREE.Object3D();
-
-				// self is the amount of spheres we want
 				color = new THREE.Color(0xff0000);
 				geometry = new THREE.SphereGeometry(70, 100, 100);
 
@@ -25815,16 +25789,14 @@
 				sphere = new THREE.Mesh(geometry, material);
 
 				for (var i = 0; i < cooordinates.length; i++) {
-
 					var clone = sphere.clone();
 					clone.position.x = cooordinates[i].x;
 					clone.position.y = cooordinates[i].y;
 					clone.position.z = cooordinates[i].z;
 					clone.rotation.x = cooordinates[i].x;
 					clone.rotation.z = cooordinates[i].z;
-					var scale = clone.position.z / 50 * 3.0;
+					var scale = clone.position.z * .09;
 					clone.scale.set(scale, scale, scale);
-
 					scene.add(clone);
 				};
 
@@ -25885,7 +25857,19 @@
 		},
 
 		render: function render() {
-			return _react2['default'].createElement('div', { id: 'home-page' });
+			return _react2['default'].createElement(
+				'div',
+				{ id: 'home-page' },
+				_react2['default'].createElement(
+					'h4',
+					null,
+					'DEVELOPER',
+					_react2['default'].createElement('br', null),
+					'ANIMATOR',
+					_react2['default'].createElement('br', null),
+					'FOOL'
+				)
+			);
 		}
 	});
 
@@ -26007,7 +25991,7 @@
 	            _react2['default'].createElement(
 	              _reactRouter.Link,
 	              { to: '/about', className: 'page-link', onClick: this.handleMenuClick },
-	              'stalk'
+	              'Info'
 	            )
 	          ),
 	          _react2['default'].createElement(
@@ -26044,7 +26028,7 @@
 	          _react2['default'].createElement(
 	            _reactRouter.Link,
 	            { to: '/about', className: 'page-link', onClick: this.handleClick.bind(this, 'about') },
-	            'stalk'
+	            'Info'
 	          )
 	        ),
 	        _react2['default'].createElement(
@@ -26455,7 +26439,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,900,200);", ""]);
 
 	// module
-	exports.push([module.id, "#home-page {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  height: calc(100vh - 100px);\n  height: -moz-calc(100vh - 100px);\n  height: -webkit-calc(100vh - 100px); }\n  #home-page:after {\n    content: ' ';\n    transform: translate(0%, 170%);\n    background-size: contain;\n    background-image: url(\"/assets/home-page-title.svg\");\n    background-repeat: no-repeat;\n    background-position: center;\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 200px; }\n\ncanvas {\n  position: absolute;\n  top: 0;\n  left: 0;\n  transform: translate(0%, 20%); }\n\n.main-text {\n  font-family: 'Work Sans', sans-serif;\n  font-weight: 900;\n  letter-spacing: 0.4rem;\n  z-index: 3;\n  text-align: center;\n  font-size: 2rem;\n  line-height: 4rem;\n  margin-left: 40%;\n  color: white; }\n  .main-text h1 {\n    margin: 0; }\n\n@media screen and (min-width: 750px) {\n  #home-page {\n    height: 30vh; }\n    #home-page:after {\n      transform: translate(60%, 100%);\n      width: 50%;\n      height: 200px; }\n  canvas {\n    transform: translate(0%, 0%); } }\n", ""]);
+	exports.push([module.id, "#home-page {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 100vh;\n  height: calc(100vh - 100px);\n  height: -moz-calc(100vh - 100px);\n  height: -webkit-calc(100vh - 100px); }\n  #home-page h4 {\n    margin: 0;\n    position: absolute;\n    z-index: 2;\n    margin-top: 10%;\n    color: whitesmoke;\n    font-size: 4rem;\n    line-height: 3.2rem;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%); }\n\ncanvas {\n  position: absolute;\n  top: 0;\n  left: 0;\n  transform: translate(0%, 20%); }\n\n.main-text {\n  font-family: 'Work Sans', sans-serif;\n  font-weight: 900;\n  letter-spacing: 0.4rem;\n  z-index: 3;\n  text-align: center;\n  font-size: 2rem;\n  line-height: 4rem;\n  margin-left: 40%;\n  color: white; }\n  .main-text h1 {\n    margin: 0; }\n\n@media screen and (min-width: 750px) {\n  #home-page {\n    height: 30vh; }\n    #home-page h4 {\n      margin-top: 2%;\n      font-size: 6rem;\n      line-height: 4.6rem; }\n  canvas {\n    transform: translate(0%, 0%); } }\n", ""]);
 
 	// exports
 
@@ -26659,17 +26643,21 @@
 	            null,
 	            'Javascript',
 	            _react2['default'].createElement('br', null),
-	            'Angular',
+	            'Angular.js',
 	            _react2['default'].createElement('br', null),
-	            'React',
+	            'React.js',
 	            _react2['default'].createElement('br', null),
-	            'SCSS',
+	            'Backbone.js',
 	            _react2['default'].createElement('br', null),
-	            'Threejs',
+	            'SASS',
 	            _react2['default'].createElement('br', null),
-	            'WebGL',
+	            'Three.js',
+	            _react2['default'].createElement('br', null),
+	            'Canvas',
 	            _react2['default'].createElement('br', null),
 	            'D3',
+	            _react2['default'].createElement('br', null),
+	            'Node.js',
 	            _react2['default'].createElement('br', null),
 	            'Rails',
 	            _react2['default'].createElement('br', null),
@@ -26787,7 +26775,7 @@
 
 
 	// module
-	exports.push([module.id, "#container .about-wrapper {\n  width: 100%;\n  margin: auto; }\n  #container .about-wrapper h3 {\n    margin-top: 45px;\n    vertical-align: top;\n    text-align: center;\n    text-transform: uppercase; }\n  #container .about-wrapper p {\n    margin: 0 0 35px 15px;\n    width: 60%;\n    margin-right: 2%; }\n  #container .about-wrapper img {\n    width: 90%;\n    margin: auto;\n    display: block; }\n  #container .about-wrapper ul {\n    padding: 0; }\n    #container .about-wrapper ul li {\n      display: block;\n      margin: 10px 0; }\n      #container .about-wrapper ul li a {\n        transition: all 0.5s ease;\n        position: relative;\n        width: 100%;\n        margin: 10px 0;\n        padding: 0;\n        overflow: hidden;\n        background: none;\n        z-index: 1;\n        cursor: pointer;\n        width: 100%; }\n        #container .about-wrapper ul li a:hover {\n          color: dodgerblue; }\n        #container .about-wrapper ul li a:before {\n          content: \"\";\n          position: absolute;\n          background: #383736;\n          bottom: 0;\n          left: 0;\n          right: 100%;\n          top: 0;\n          z-index: -1;\n          transition: right 0.2s ease-in; }\n  #container .about-wrapper .my-name {\n    font-size: 1.7rem;\n    font-weight: 700;\n    margin-bottom: 4rem; }\n  #container .about-wrapper .line {\n    width: 100%;\n    height: 7px;\n    border-radius: 15px;\n    margin-bottom: 5rem; }\n    #container .about-wrapper .line:nth-of-type(1) {\n      transform: rotate(6deg);\n      background-color: dodgerblue;\n      -webkit-transform: rotate(6deg); }\n    #container .about-wrapper .line.bottom {\n      transform: rotate(-12deg);\n      background-color: dodgerblue;\n      -webkit-transform: rotate(-12deg); }\n  #container .about-wrapper .section {\n    width: 100%;\n    padding: 50px 0px;\n    position: relative;\n    padding-bottom: 110px; }\n    #container .about-wrapper .section:nth-of-type(1) {\n      padding-top: 0; }\n    #container .about-wrapper .section:after {\n      content: ' ';\n      width: 100%;\n      height: 5px;\n      position: absolute;\n      left: 0;\n      bottom: 0;\n      background: dodgerblue; }\n    #container .about-wrapper .section .about-toggle {\n      position: relative;\n      width: 138px;\n      margin: auto; }\n      #container .about-wrapper .section .about-toggle:before {\n        content: '*';\n        position: absolute;\n        left: -10px;\n        top: 0;\n        color: red; }\n      #container .about-wrapper .section .about-toggle:hover {\n        -webkit-animation: pulse 2.8s infinite;\n        /* Safari 4+ */\n        -moz-animation: pulse 2.8s infinite;\n        /* Fx 5+ */\n        -o-animation: pulse 2.8s infinite;\n        /* Opera 12+ */\n        animation: pulse 2.8s infinite;\n        /* IE 10+, Fx 29+ */ }\n  #container .about-wrapper .long-facts-title, #container .about-wrapper .skill-set-title, #container .about-wrapper .contact-title {\n    width: 110px;\n    margin-bottom: 5%;\n    display: inline-block;\n    vertical-align: top;\n    padding: 6px 12px;\n    border: 3px solid #000;\n    text-transform: uppercase;\n    font-size: 1.7rem;\n    font-weight: 700;\n    text-align: center; }\n  #container .about-wrapper .long-facts-title:hover, #container .about-wrapper .skill-set-title:hover {\n    transform-origin: top left;\n    -webkit-animation: rotate-title 0.8s forwards;\n    /* Safari 4+ */\n    -moz-animation: rotate-title 0.8s forwards;\n    /* Fx 5+ */\n    -o-animation: rotate-title 0.8s forwards;\n    /* Opera 12+ */\n    animation: rotate-title 0.8s forwards;\n    /* IE 10+, Fx 29+ */ }\n  #container .about-wrapper .skill-set-title {\n    font-size: 1.3rem; }\n  #container .about-wrapper .contact {\n    width: 50%;\n    display: inline-block;\n    margin-left: 80px; }\n    #container .about-wrapper .contact ul {\n      margin: 0; }\n      #container .about-wrapper .contact ul li:nth-of-type(1) {\n        margin-top: 0; }\n\n@-webkit-keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@-moz-keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@-o-keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@-webkit-keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@-moz-keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@-o-keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@media screen and (min-width: 750px) {\n  #container .about-wrapper h3 {\n    display: inline-block;\n    margin-left: 10%; }\n  #container .about-wrapper img {\n    display: inline-block;\n    width: 50%;\n    margin-left: 2%; }\n  #container .about-wrapper p:nth-of-type(1) {\n    width: 50%; }\n  #container .about-wrapper .section .about-toggle {\n    width: 138px;\n    margin-top: 40px;\n    margin-left: 10%; }\n  #container .about-wrapper .section .skill-set {\n    margin-left: 20px;\n    display: inline-block;\n    width: 22%; }\n    #container .about-wrapper .section .skill-set p {\n      display: block; } }\n\n@media screen and (min-width: 900px) {\n  .about-wrapper p {\n    width: 30%; }\n  .about-wrapper .skill-set, .about-wrapper .quick-facts {\n    width: 25%;\n    margin-left: 0;\n    display: inline-block; }\n    .about-wrapper .skill-set p, .about-wrapper .quick-facts p {\n      width: 80%;\n      display: block; } }\n", ""]);
+	exports.push([module.id, "#container .about-wrapper {\n  width: 100%;\n  margin: auto; }\n  #container .about-wrapper h3 {\n    margin-top: 45px;\n    vertical-align: top;\n    text-align: center;\n    text-transform: uppercase; }\n  #container .about-wrapper p {\n    margin: 0 0 35px 0px; }\n  #container .about-wrapper .skill-set p {\n    margin: 0 0 35px 15px; }\n  #container .about-wrapper img {\n    width: 90%;\n    margin: auto;\n    display: block; }\n  #container .about-wrapper ul {\n    padding: 0; }\n    #container .about-wrapper ul li {\n      display: block;\n      margin: 10px 0; }\n      #container .about-wrapper ul li a {\n        transition: all 0.5s ease;\n        position: relative;\n        width: 100%;\n        margin: 10px 0;\n        padding: 0;\n        overflow: hidden;\n        background: none;\n        z-index: 1;\n        cursor: pointer;\n        width: 100%; }\n        #container .about-wrapper ul li a:hover {\n          color: dodgerblue; }\n        #container .about-wrapper ul li a:before {\n          content: \"\";\n          position: absolute;\n          background: #383736;\n          bottom: 0;\n          left: 0;\n          right: 100%;\n          top: 0;\n          z-index: -1;\n          transition: right 0.2s ease-in; }\n  #container .about-wrapper .my-name {\n    font-size: 1.7rem;\n    font-weight: 700;\n    margin-bottom: 4rem; }\n  #container .about-wrapper .line {\n    width: 100%;\n    height: 7px;\n    border-radius: 15px;\n    margin-bottom: 5rem; }\n    #container .about-wrapper .line:nth-of-type(1) {\n      transform: rotate(6deg);\n      background-color: dodgerblue;\n      -webkit-transform: rotate(6deg); }\n    #container .about-wrapper .line.bottom {\n      transform: rotate(-12deg);\n      background-color: dodgerblue;\n      -webkit-transform: rotate(-12deg); }\n  #container .about-wrapper .section {\n    width: 100%;\n    padding: 50px 0px;\n    position: relative;\n    padding-bottom: 110px; }\n    #container .about-wrapper .section:nth-of-type(1) {\n      padding-top: 0; }\n    #container .about-wrapper .section:after {\n      content: ' ';\n      width: 100%;\n      height: 5px;\n      position: absolute;\n      left: 0;\n      bottom: 0;\n      background: dodgerblue; }\n    #container .about-wrapper .section .about-toggle {\n      position: relative;\n      width: 138px;\n      margin: auto; }\n      #container .about-wrapper .section .about-toggle:before {\n        content: '*';\n        position: absolute;\n        left: -10px;\n        top: 0;\n        color: red; }\n      #container .about-wrapper .section .about-toggle:hover {\n        -webkit-animation: pulse 2.8s infinite;\n        /* Safari 4+ */\n        -moz-animation: pulse 2.8s infinite;\n        /* Fx 5+ */\n        -o-animation: pulse 2.8s infinite;\n        /* Opera 12+ */\n        animation: pulse 2.8s infinite;\n        /* IE 10+, Fx 29+ */ }\n  #container .about-wrapper .long-facts-title, #container .about-wrapper .skill-set-title, #container .about-wrapper .contact-title {\n    width: 110px;\n    margin-bottom: 5%;\n    display: inline-block;\n    vertical-align: top;\n    padding: 6px 12px;\n    border: 3px solid #000;\n    text-transform: uppercase;\n    font-size: 1.7rem;\n    font-weight: 700;\n    text-align: center; }\n  #container .about-wrapper .long-facts-title:hover, #container .about-wrapper .skill-set-title:hover {\n    transform-origin: top left;\n    -webkit-animation: rotate-title 0.8s forwards;\n    /* Safari 4+ */\n    -moz-animation: rotate-title 0.8s forwards;\n    /* Fx 5+ */\n    -o-animation: rotate-title 0.8s forwards;\n    /* Opera 12+ */\n    animation: rotate-title 0.8s forwards;\n    /* IE 10+, Fx 29+ */ }\n  #container .about-wrapper .skill-set-title {\n    font-size: 1.3rem; }\n  #container .about-wrapper .contact {\n    width: 50%;\n    display: inline-block;\n    margin-left: 80px; }\n    #container .about-wrapper .contact ul {\n      margin: 0; }\n      #container .about-wrapper .contact ul li:nth-of-type(1) {\n        margin-top: 0; }\n\n@-webkit-keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@-moz-keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@-o-keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@keyframes rotate-title {\n  0% {\n    transform: rotate(0deg); }\n  100% {\n    transform: rotate(20deg); } }\n\n@-webkit-keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@-moz-keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@-o-keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@keyframes pulse {\n  0% {\n    transform: scale(1); }\n  50% {\n    transform: scale(1.1); }\n  100% {\n    transform: scale(1); } }\n\n@media screen and (min-width: 510px) {\n  #container .about-wrapper p {\n    margin: 0 0 35px 15px;\n    width: 60%;\n    margin-right: 2%; } }\n\n@media screen and (min-width: 750px) {\n  #container .about-wrapper h3 {\n    display: inline-block;\n    margin-left: 10%; }\n  #container .about-wrapper img {\n    display: inline-block;\n    width: 50%;\n    margin-left: 2%; }\n  #container .about-wrapper p:nth-of-type(1) {\n    width: 50%; }\n  #container .about-wrapper .section .about-toggle {\n    width: 138px;\n    margin-top: 40px;\n    margin-left: 10%; }\n  #container .about-wrapper .section .skill-set {\n    margin-left: 20px;\n    display: inline-block;\n    width: 22%; }\n    #container .about-wrapper .section .skill-set p {\n      display: block; } }\n\n@media screen and (min-width: 900px) {\n  .about-wrapper p {\n    width: 30%; }\n  .about-wrapper .skill-set, .about-wrapper .quick-facts {\n    width: 25%;\n    margin-left: 0;\n    display: inline-block; }\n    .about-wrapper .skill-set p, .about-wrapper .quick-facts p {\n      width: 80%;\n      display: block; } }\n", ""]);
 
 	// exports
 
@@ -26874,7 +26862,7 @@
 
 
 	// module
-	exports.push([module.id, "* {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n/* ---- isotope ---- */\n#filters {\n  margin-bottom: 3rem; }\n\n.filter {\n  width: auto;\n  margin: 0.2rem 0.2rem;\n  padding: 0.5rem 2rem;\n  display: inline-block;\n  border: solid #D33FFF 2px;\n  cursor: pointer;\n  font-size: 1.4rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  background-size: 1.8rem;\n  background-image: url(\"/assets/dot.svg\"); }\n  .filter:nth-of-type(1) {\n    margin-left: 0; }\n  .filter:hover {\n    color: #fff;\n    background: #D33FFF;\n    background-size: 1.8rem;\n    background-image: url(\"/assets/dot-purple.svg\"); }\n  .filter.selected {\n    color: #fff;\n    background: #D33FFF;\n    background-size: 1.8rem;\n    background-image: url(\"/assets/dot-purple.svg\"); }\n  .filter.small-filter {\n    font-size: 0.9rem; }\n\n.grid {\n  overflow-wrap: normal;\n  position: relative;\n  width: 100%;\n  clear: both;\n  display: -webkit-flex;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: flex-start; }\n\n.grid a {\n  position: relative;\n  width: 100%;\n  height: 180px;\n  margin: 5px;\n  margin-left: 0px;\n  color: #262524;\n  text-decoration: none; }\n  .grid a:hover {\n    animation: tilt-effect forwards 1s; }\n  .grid a h1, .grid a h2 {\n    margin: 0; }\n  .grid a h1 {\n    font-size: 2rem;\n    text-transform: uppercase;\n    position: relative;\n    padding: 0 2rem;\n    line-height: 2.7rem; }\n    .grid a h1:before {\n      content: ' ';\n      position: absolute;\n      left: -5px;\n      top: 43%;\n      width: 20px;\n      height: 4px;\n      background: black; }\n  .grid a h2 {\n    font-weight: 400; }\n  .grid a p {\n    height: 98px;\n    margin-left: 3rem;\n    text-overflow: ellipsis;\n    overflow: hidden; }\n\n.grid .shape {\n  position: relative;\n  width: 100%;\n  height: 180px;\n  margin: 5px;\n  margin-left: 0px;\n  padding: 30px;\n  padding-top: 7rem;\n  color: #262524;\n  background: none;\n  cursor: default;\n  background: center no-repeat;\n  background-size: 20%; }\n\n/* ----------------\n\n\tPROJECT PAGE STYLES\n\n\t----------------*/\n#container .main-info {\n  width: 100%; }\n  #container .main-info h2 {\n    font-family: Courier New;\n    font-size: 1.2rem;\n    position: relative;\n    width: auto;\n    display: inline-block;\n    margin: 0; }\n    #container .main-info h2:nth-of-type(1) {\n      margin-top: 30px; }\n      #container .main-info h2:nth-of-type(1):after {\n        content: '/';\n        position: absolute;\n        right: -50px; }\n    #container .main-info h2:nth-of-type(2), #container .main-info h2:nth-of-type(3) {\n      font-weight: 400; }\n    #container .main-info h2:nth-of-type(3) {\n      margin-bottom: 30px; }\n    #container .main-info h2 a:hover {\n      color: #D33FFF; }\n  #container .main-info p {\n    width: auto;\n    max-width: 66%;\n    margin: 0 30px 0 0; }\n  #container .main-info .back {\n    width: auto;\n    margin: 0.2rem 0.2rem;\n    padding: 0.5rem 2rem;\n    display: inline-block;\n    border: solid #D33FFF 2px;\n    cursor: pointer;\n    font-size: 1.4rem;\n    font-weight: 700;\n    text-transform: uppercase;\n    background-size: 1.8rem;\n    background-image: url(\"/assets/dot.svg\"); }\n    #container .main-info .back:hover {\n      color: #fff !important;\n      background: #D33FFF;\n      background-size: 1.8rem;\n      background-image: url(\"/assets/dot-purple.svg\"); }\n\n.content-section {\n  width: 100%;\n  display: inline-block;\n  vertical-align: top; }\n  .content-section .small-details {\n    width: 25%;\n    display: inline-block;\n    position: relative;\n    margin-bottom: 100px; }\n    .content-section .small-details:before {\n      content: ' ';\n      position: absolute;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 1px;\n      background: black; }\n    .content-section .small-details p {\n      display: block !important; }\n      .content-section .small-details p:nth-of-type(1) {\n        font-weight: 700;\n        margin: 10px 0; }\n  .content-section:nth-of-type(2) {\n    width: 100%; }\n    .content-section:nth-of-type(2) img {\n      width: 100%;\n      margin-right: 3px;\n      margin-bottom: 30px; }\n      .content-section:nth-of-type(2) img:nth-of-type(1) {\n        margin-top: 30px; }\n\n@-webkit-keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@-moz-keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@-o-keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@media screen and (min-width: 550px) {\n  .grid a, .grid .shape {\n    width: 30%;\n    background-size: 30%; } }\n\n@media screen and (min-width: 750px) {\n  .content-section:nth-of-type(2) img {\n    width: 85%; } }\n", ""]);
+	exports.push([module.id, "* {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n/* ---- isotope ---- */\n#filters {\n  margin-bottom: 3rem; }\n\n.filter {\n  width: auto;\n  margin: 0.2rem 0.2rem;\n  padding: 0.5rem 2rem;\n  display: inline-block;\n  border: solid #D33FFF 2px;\n  cursor: pointer;\n  font-size: 1.4rem;\n  font-weight: 700;\n  text-transform: uppercase;\n  background-size: 1.8rem;\n  background-image: url(\"/assets/dot.svg\"); }\n  .filter:nth-of-type(1) {\n    margin-left: 0; }\n  .filter:hover {\n    color: #fff;\n    background: #D33FFF;\n    background-size: 1.8rem;\n    background-image: url(\"/assets/dot-purple.svg\"); }\n  .filter.selected {\n    color: #fff;\n    background: #D33FFF;\n    background-size: 1.8rem;\n    background-image: url(\"/assets/dot-purple.svg\"); }\n  .filter.small-filter {\n    font-size: 0.9rem; }\n\n.grid {\n  overflow-wrap: normal;\n  position: relative;\n  width: 100%;\n  clear: both;\n  display: -webkit-flex;\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: flex-start; }\n\n.grid a {\n  position: relative;\n  width: 100%;\n  height: 180px;\n  margin: 5px;\n  margin-left: 0px;\n  color: #262524;\n  text-decoration: none; }\n  .grid a:hover {\n    animation: tilt-effect forwards 1s; }\n  .grid a h1, .grid a h2 {\n    margin: 0; }\n  .grid a h1 {\n    font-size: 2rem;\n    text-transform: uppercase;\n    position: relative;\n    padding: 0 2rem;\n    line-height: 2.7rem; }\n    .grid a h1:before {\n      content: ' ';\n      position: absolute;\n      left: -5px;\n      top: 43%;\n      width: 20px;\n      height: 4px;\n      background: black; }\n  .grid a h2 {\n    font-weight: 400; }\n  .grid a p {\n    height: 98px;\n    margin-left: 3rem;\n    text-overflow: ellipsis;\n    overflow: hidden; }\n\n.grid .shape {\n  position: relative;\n  width: 100%;\n  height: 180px;\n  margin: 5px;\n  margin-left: 0px;\n  padding: 30px;\n  padding-top: 7rem;\n  color: #262524;\n  background: none;\n  cursor: default;\n  background: center no-repeat;\n  background-size: 20%; }\n\n/* ----------------\n\n\tPROJECT PAGE STYLES\n\n\t----------------*/\n#container .main-info {\n  width: 100%; }\n  #container .main-info h2 {\n    font-family: Courier New;\n    font-size: 1.2rem;\n    position: relative;\n    width: auto;\n    display: inline-block;\n    margin: 0; }\n    #container .main-info h2:nth-of-type(1) {\n      margin-top: 30px; }\n      #container .main-info h2:nth-of-type(1):after {\n        content: '/';\n        position: absolute;\n        right: -50px; }\n    #container .main-info h2:nth-of-type(2), #container .main-info h2:nth-of-type(3) {\n      font-weight: 400; }\n    #container .main-info h2:nth-of-type(3) {\n      margin-bottom: 30px; }\n    #container .main-info h2 a:hover {\n      color: #D33FFF; }\n  #container .main-info p {\n    width: auto;\n    max-width: 66%;\n    margin: 0 30px 0 0; }\n  #container .main-info .back {\n    width: auto;\n    margin: 0.2rem 0.2rem;\n    padding: 0.5rem 2rem;\n    display: inline-block;\n    border: solid #D33FFF 2px;\n    cursor: pointer;\n    font-size: 1.4rem;\n    font-weight: 700;\n    text-transform: uppercase;\n    background-size: 1.8rem;\n    background-image: url(\"/assets/dot.svg\"); }\n    #container .main-info .back:hover {\n      color: #fff !important;\n      background: #D33FFF;\n      background-size: 1.8rem;\n      background-image: url(\"/assets/dot-purple.svg\"); }\n\n.feature-image {\n  width: 100%;\n  margin-bottom: 30px;\n  display: block; }\n\n.content-section {\n  width: 100%;\n  display: inline-block;\n  vertical-align: top; }\n  .content-section .small-details {\n    width: 25%;\n    display: inline-block;\n    position: relative;\n    margin-bottom: 100px; }\n    .content-section .small-details:before {\n      content: ' ';\n      position: absolute;\n      left: 0;\n      top: 0;\n      width: 100%;\n      height: 1px;\n      background: black; }\n    .content-section .small-details p {\n      display: block !important; }\n      .content-section .small-details p:nth-of-type(1) {\n        font-weight: 700;\n        margin: 10px 0;\n        padding-top: 10px; }\n  .content-section:nth-of-type(2) {\n    width: 100%; }\n    .content-section:nth-of-type(2) img {\n      width: 100%;\n      margin-right: 3px;\n      margin-bottom: 30px; }\n      .content-section:nth-of-type(2) img:nth-of-type(1) {\n        margin-top: 30px; }\n\n@-webkit-keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@-moz-keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@-o-keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@keyframes tilt-effect {\n  0% {\n    transform: perspective(0px) rotateY(0deg); }\n  100% {\n    transform: perspective(200px) rotateY(25deg); } }\n\n@media screen and (min-width: 550px) {\n  .grid a, .grid .shape {\n    width: 30%;\n    background-size: 30%; } }\n\n@media screen and (min-width: 750px) {\n  .content-section:nth-of-type(2) img {\n    width: 85%; }\n  .feature-image {\n    width: 85%; } }\n", ""]);
 
 	// exports
 
@@ -31372,8 +31360,8 @@
 	      _this.setState({ projects: d });
 
 	      var projects = _this.state.projects || [];
-	      var hello = _this.state.projectId - 1;
-	      current = projects[hello];
+	      var id = _this.state.projectId - 1;
+	      current = projects[id];
 	      _this.setState({
 	        currentProjects: current
 	      });
@@ -31382,6 +31370,7 @@
 
 	  render: function render() {
 	    var currentProject = this.state.currentProjects || [];
+	    // var featureImage = currentProject.featureImage || [];
 	    var images = currentProject.image || [];
 	    var tags = currentProject.tagList || [];
 	    return _react2['default'].createElement(
@@ -31390,6 +31379,7 @@
 	      _react2['default'].createElement(
 	        'div',
 	        { className: 'main-info' },
+	        _react2['default'].createElement('img', { className: 'feature-image', src: currentProject.featureImage }),
 	        _react2['default'].createElement(
 	          _reactRouter.Link,
 	          { to: '/portfolio', className: 'back' },
@@ -31411,6 +31401,7 @@
 	        _react2['default'].createElement(
 	          'h2',
 	          null,
+	          'LINK: ',
 	          _react2['default'].createElement(
 	            'a',
 	            { href: currentProject.projectLink, target: '_blank' },
@@ -31543,7 +31534,7 @@
 
 
 	// module
-	exports.push([module.id, "/* ----------- \n\n\tSKILLS COLLECTION STYLES\n\n\t----------- */\n.skills-grid .skill-item {\n  width: 100%;\n  height: 150px;\n  margin: 3px;\n  padding: 2rem;\n  background: #EFEFEF;\n  position: relative;\n  display: block;\n  margin: auto;\n  background-size: 0%; }\n  .skills-grid .skill-item:hover {\n    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25d2db+0,32db29+100 */\n    background: #25d2db;\n    /* Old browsers */\n    background: -moz-linear-gradient(left, #25d2db 0%, #32db29 100%);\n    /* FF3.6-15 */\n    background: -webkit-linear-gradient(left, #25d2db 0%, #32db29 100%);\n    /* Chrome10-25,Safari5.1-6 */\n    background: linear-gradient(to right, #25d2db 0%, #32db29 100%);\n    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25d2db', endColorstr='#32db29',GradientType=1 );\n    /* IE6-9 */ }\n  .skills-grid .skill-item h3 {\n    font-size: 2.5rem;\n    margin: 1rem 0;\n    position: relative; }\n    .skills-grid .skill-item h3:after {\n      content: ' ';\n      width: 24px;\n      height: 5px;\n      position: absolute;\n      left: 2px;\n      bottom: -20px;\n      background: black; }\n\n.skills-grid .skill-item:after {\n  content: '';\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  right: 10px;\n  bottom: 10px;\n  border: solid 5px black; }\n\n.skills-header {\n  position: relative;\n  width: 100%;\n  margin-left: 0 !important; }\n  .skills-header:after {\n    content: ' ';\n    position: absolute;\n    bottom: -10px;\n    left: 0px;\n    width: 100%;\n    height: 3px;\n    background: black; }\n\n/* ----------- \n\n\tINDIVIDUAL SKILL PAGE\n\n\t----------- */\n#skill-container {\n  width: 100%; }\n  #skill-container .content-wrapper {\n    margin-top: 3rem;\n    margin-left: 5%; }\n  #skill-container .image-holder {\n    width: 100%;\n    height: 200px;\n    background-size: contain;\n    background-repeat: no-repeat; }\n\n.side-quote {\n  font-size: 0.5rem; }\n\n#skill-container .grey-bar {\n  width: 100%;\n  background: #EAEAEA; }\n  #skill-container .grey-bar p {\n    margin-left: 5%;\n    position: relative;\n    font-size: 0.9rem;\n    padding: 2.5rem 0 0 0; }\n    #skill-container .grey-bar p:after {\n      content: ' ';\n      position: absolute;\n      top: 20px;\n      left: 0px;\n      width: 100%;\n      height: 3px;\n      background: black; }\n    #skill-container .grey-bar p:nth-of-type(2) {\n      margin-left: 20%; }\n\n#skill-container .section {\n  vertical-align: top;\n  margin-bottom: 30px; }\n  #skill-container .section .number-icon {\n    width: auto;\n    display: inline-block;\n    border: solid black 5px;\n    padding: 1rem 5rem 4rem 1rem;\n    vertical-align: top; }\n    #skill-container .section .number-icon strong {\n      font-family: 'Montserrat', sans-serif;\n      font-weight: 700;\n      font-size: 3rem;\n      position: relative; }\n      #skill-container .section .number-icon strong:after {\n        content: '\\2014';\n        position: absolute;\n        left: 0;\n        top: 2.5rem; }\n  #skill-container .section h2, #skill-container .section h3, #skill-container .section p {\n    margin: 0;\n    font-size: 1rem;\n    display: inline-block; }\n  #skill-container .section h2 {\n    position: relative;\n    margin: 1.5rem 0;\n    width: 100%;\n    font-weight: 100; }\n    #skill-container .section h2:after {\n      content: ' ';\n      position: absolute;\n      left: 0;\n      bottom: -5px;\n      background: black;\n      width: 100%;\n      height: 3px; }\n  #skill-container .section ul {\n    margin: 0 0 0 1rem;\n    display: inline-block;\n    padding: 0;\n    width: 50%; }\n    #skill-container .section ul li {\n      display: block;\n      list-style: none;\n      font-weight: lighter;\n      margin-left: 0; }\n    #skill-container .section ul a {\n      margin: 0 0 10px 0;\n      display: block;\n      color: #24DD9A;\n      text-transform: uppercase; }\n    #skill-container .section ul h3 a {\n      color: #000;\n      margin-top: 0;\n      position: relative; }\n      #skill-container .section ul h3 a:after {\n        content: ' ';\n        position: absolute;\n        bottom: -0.5rem;\n        left: 0;\n        width: 100%;\n        height: 2px;\n        background: #24DD9A; }\n\n/* ----------- \n\n\tMEDIA QURIES\n\n\t----------- */\n/* ----------- \n\t***TABLETS***\n\t----------- */\n@media screen and (min-width: 750px) {\n  /* ----------- \n\t\tSKILLS COLLECTION STYLES\n\t----------- */\n  .skills-grid .skill-item {\n    width: 130px;\n    height: 130px;\n    margin: 20px 30px 0 0;\n    display: inline-block; }\n  /* ----------- \n\t\tINDIVIDUAL SKILL PAGE\n\t----------- */\n  #skill-container .content-wrapper {\n    margin-left: 35%; }\n  #skill-container .image-holder {\n    display: inline-block;\n    margin-right: 2px; }\n  #skill-container .grey-bar {\n    width: 100%; }\n    #skill-container .grey-bar p {\n      margin-left: 35%; }\n      #skill-container .grey-bar p:nth-of-type(2) {\n        margin-left: 20%; }\n  #skill-container .section {\n    width: 35%;\n    display: inline-block; }\n    #skill-container .section ul {\n      display: block;\n      margin: 1rem 0 0 0;\n      width: auto; }\n      #skill-container .section ul a {\n        margin: 20px 0; }\n    #skill-container .section:nth-of-type(2) {\n      width: 57% !important;\n      margin-left: 2rem; } }\n\n/* ----------- \n\t***LAPTOPS***\n\t----------- */\n@media screen and (min-width: 900px) {\n  /* ----------- \n\n\t\tINDIVIDUAL SKILL PAGE\n\n\t\t----------- */\n  .content-wrapper {\n    margin-left: 35%; } }\n", ""]);
+	exports.push([module.id, "/* -----------\n\n\tSKILLS COLLECTION STYLES\n\n\t----------- */\n.skills-grid .skill-item {\n  width: 100%;\n  height: 150px;\n  margin: 3px;\n  padding: 2rem;\n  background: #EFEFEF;\n  position: relative;\n  display: block;\n  margin: auto;\n  background-size: 0%; }\n  .skills-grid .skill-item:hover {\n    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25d2db+0,32db29+100 */\n    background: #25d2db;\n    /* Old browsers */\n    background: -moz-linear-gradient(left, #25d2db 0%, #32db29 100%);\n    /* FF3.6-15 */\n    background: -webkit-linear-gradient(left, #25d2db 0%, #32db29 100%);\n    /* Chrome10-25,Safari5.1-6 */\n    background: linear-gradient(to right, #25d2db 0%, #32db29 100%);\n    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */\n    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25d2db', endColorstr='#32db29',GradientType=1 );\n    /* IE6-9 */ }\n  .skills-grid .skill-item h3 {\n    font-size: 2.5rem;\n    margin: 1rem 0;\n    position: relative; }\n    .skills-grid .skill-item h3:after {\n      content: ' ';\n      width: 24px;\n      height: 5px;\n      position: absolute;\n      left: 2px;\n      bottom: -20px;\n      background: black; }\n  .skills-grid .skill-item p {\n    margin: 21px 0 0 0 !important;\n    font-size: 0.8rem !important; }\n\n.skills-grid .skill-item:after {\n  content: '';\n  position: absolute;\n  top: 10px;\n  left: 10px;\n  right: 10px;\n  bottom: 10px;\n  border: solid 5px black; }\n\n.skills-header {\n  position: relative;\n  width: 100%;\n  margin-left: 0 !important; }\n  .skills-header:after {\n    content: ' ';\n    position: absolute;\n    bottom: -10px;\n    left: 0px;\n    width: 100%;\n    height: 3px;\n    background: black; }\n\n/* -----------\n\n\tINDIVIDUAL SKILL PAGE\n\n\t----------- */\n#skill-container {\n  width: 100%; }\n  #skill-container .content-wrapper {\n    margin-top: 3rem;\n    margin-left: 5%; }\n  #skill-container .image-holder {\n    width: 100%;\n    height: 200px;\n    background-size: contain;\n    background-repeat: no-repeat; }\n\n.side-quote {\n  font-size: 0.5rem; }\n\n#skill-container .grey-bar {\n  width: 100%;\n  background: #EAEAEA; }\n  #skill-container .grey-bar p {\n    margin-left: 5%;\n    position: relative;\n    font-size: 0.9rem;\n    padding: 2.5rem 0 0 0; }\n    #skill-container .grey-bar p:after {\n      content: ' ';\n      position: absolute;\n      top: 20px;\n      left: 0px;\n      width: 100%;\n      height: 3px;\n      background: black; }\n    #skill-container .grey-bar p:nth-of-type(2) {\n      margin-left: 20%; }\n\n#skill-container .section {\n  vertical-align: top;\n  margin-bottom: 30px; }\n  #skill-container .section .number-icon {\n    width: auto;\n    display: inline-block;\n    border: solid black 5px;\n    padding: 1rem 5rem 4rem 1rem;\n    vertical-align: top; }\n    #skill-container .section .number-icon strong {\n      font-family: 'Montserrat', sans-serif;\n      font-weight: 700;\n      font-size: 3rem;\n      position: relative; }\n      #skill-container .section .number-icon strong:after {\n        content: '\\2014';\n        position: absolute;\n        left: 0;\n        top: 2.5rem; }\n  #skill-container .section h2, #skill-container .section h3, #skill-container .section p {\n    margin: 0;\n    font-size: 1rem;\n    display: inline-block; }\n  #skill-container .section h2 {\n    position: relative;\n    margin: 1.5rem 0;\n    width: 100%;\n    font-weight: 100; }\n    #skill-container .section h2:after {\n      content: ' ';\n      position: absolute;\n      left: 0;\n      bottom: -5px;\n      background: black;\n      width: 100%;\n      height: 3px; }\n  #skill-container .section ul {\n    margin: 0 0 0 1rem;\n    display: inline-block;\n    padding: 0;\n    width: 50%; }\n    #skill-container .section ul li {\n      display: block;\n      list-style: none;\n      font-weight: lighter;\n      margin-left: 0; }\n    #skill-container .section ul a {\n      margin: 0 0 10px 0;\n      display: block;\n      color: #24DD9A;\n      text-transform: uppercase; }\n    #skill-container .section ul h3 a {\n      color: #000;\n      margin-top: 0;\n      position: relative; }\n      #skill-container .section ul h3 a:after {\n        content: ' ';\n        position: absolute;\n        bottom: -0.5rem;\n        left: 0;\n        width: 100%;\n        height: 2px;\n        background: #24DD9A; }\n\n/* -----------\n\n\tMEDIA QURIES\n\n\t----------- */\n/* -----------\n\t***TABLETS***\n\t----------- */\n@media screen and (min-width: 750px) {\n  /* -----------\n\t\tSKILLS COLLECTION STYLES\n\t----------- */\n  .skills-grid .skill-item {\n    width: 130px;\n    height: 130px;\n    margin: 20px 30px 0 0;\n    display: inline-block; }\n    .skills-grid .skill-item p {\n      margin: 14px 0 0 0 !important; }\n  /* -----------\n\t\tINDIVIDUAL SKILL PAGE\n\t----------- */\n  #skill-container .content-wrapper {\n    margin-left: 35%; }\n  #skill-container .image-holder {\n    display: inline-block;\n    margin-right: 2px; }\n  #skill-container .grey-bar {\n    width: 100%; }\n    #skill-container .grey-bar p {\n      margin-left: 35%; }\n      #skill-container .grey-bar p:nth-of-type(2) {\n        margin-left: 20%; }\n  #skill-container .section {\n    width: 35%;\n    display: inline-block; }\n    #skill-container .section ul {\n      display: block;\n      margin: 1rem 0 0 0;\n      width: auto; }\n      #skill-container .section ul a {\n        margin: 20px 0; }\n    #skill-container .section:nth-of-type(2) {\n      width: 57% !important;\n      margin-left: 2rem; } }\n\n/* -----------\n\t***LAPTOPS***\n\t----------- */\n@media screen and (min-width: 900px) {\n  /* -----------\n\n\t\tINDIVIDUAL SKILL PAGE\n\n\t\t----------- */\n  .content-wrapper {\n    margin-left: 35%; } }\n", ""]);
 
 	// exports
 
@@ -31624,6 +31615,11 @@
 									null,
 									'0',
 									skill.id
+								),
+								_react2['default'].createElement(
+									'p',
+									null,
+									skill.catergory
 								)
 							)
 						);

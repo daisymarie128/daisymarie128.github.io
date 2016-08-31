@@ -36,7 +36,7 @@
         "tagList":["javascript", "SCSS", "Angular", "Grunt", "Gulp"],
         "title": "Editions at Play",
         "date": "January 2016",
-        "content": "Editions At Play is an initiative by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the web.",
+        "content": "Editions At Play is an initiative by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the web. This website was a bookstore for selling our digital books.",
         "featureImage": "/assets/project-images/eap/eap-logo.gif",
         "image": [
           "/assets/project-images/eap/eap-books.gif",
@@ -50,7 +50,7 @@
         "date": "September 2015",
         "filterTags": "code javascript frameworks animation",
         "tagList": ["javascript", "SCSS", "Angular", "Grunt", "Gulp", "Device-motion"],
-        "content": "The about book was a promotional website to promote the project Editions At Play befefore it launched. It was acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions understand more about Editions At Play.",
+        "content": "The about book was a promotional website to promote the project Editions At Play befefore it launched. It acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions to understand more about Editions At Play.",
         "featureImage": "/assets/project-images/books/about-book.png",
         "image": [
           "/assets/project-images/books/lamp_book_stack.png",
@@ -83,7 +83,7 @@
         "date": "April 2016",
         "filterTags": "code javascript frameworks",
         "tagList": ["javascript", "web-audio-API", "SCSS", "Angular", "Grunt", "Gulp"],
-        "content": "The year is 2116. Eugenics experiments have failed to curb the city's dense population, which drowns in perpetual shadows cast by a layer of giant towers scraping the stratosphere miles above.Further below an ancient and mysterious world crumbles... STRATA is a book about the future, made for the future. Directed and illustrated by Tommy Lee Edwards, with music and sound design by I Speak Machine, it comprises science fiction and essays by eight stellar writers.",
+        "content": "The year is 2116. Eugenics experiments have failed to curb the city's dense population, which drowns in perpetual shadows cast by a layer of giant towers scraping the stratosphere miles above.Further below an ancient and mysterious world crumbles... STRATA is a book about the future, made for the future. Directed and illustrated by Tommy Lee Edwards, with music and sound design by I Speak Machine, it comprises science fiction and essays by eight stellar writers. This was another digital book I worked on while at Google Creative Lab",
         "featureImage": "/assets/project-images/books/strata.png",
         "image": [
           "/assets/project-images/books/penguin.jpg",
@@ -100,7 +100,7 @@
         "date": "April 2016",
         "filterTags": "code threejs javascript frameworks animation",
         "tagList": ["Threejs", "SCSS", "Angular", "Grunt", "Gulp"],
-        "content": "Another book I worked on while at Google Creative Lab. This book was written by Alan Trotter and is not published yet, will be available live late April. It is The book that loses its memory. Built using Angular, Threejs and SCSS.",
+        "content": "Another book I worked on while at Google Creative Lab for Editions At Play. Written by Alan Trotter, this is the book that loses its memory. Built using Angular.js, Three.js and Compass. It uses the accelerometer in a persons phone and on particular pages text shakes or falls depending on your movement/interaction with the story.",
         "featureImage": "/assets/project-images/books/all-this-rotting.png",
         "image": [
           "/assets/project-images/books/all-this-rotting-insitu.jpg",

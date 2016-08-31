@@ -201,7 +201,7 @@
         "title": "Orb",
         "date": "01 September 2012",
         "content": "This was something I created in 2012 as a test for what was possible to do in After Effects, and how to create a 3D particle feel without using any 3D software at all. It uses a set of images overlayed on each other and inimated effects to give the illussion of a 3D particle effect.",
-        "featureImage": "/assets/skills-images/shaders/gradient.png",
+        "featureImage":   "/assets/skills-images/animation/orb.png",
         "image": [
           "/assets/skills-images/animation/orb.png"
         ],
@@ -210,4 +210,109 @@
           "AE Script"
         ],
         "projectLink": "https://vimeo.com/105139261"
+      },
+      {
+        "id": 14,
+        "catergory": "ANIMATION",
+        "title": "Crystals",
+        "date": "01 September 2012",
+        "content": "This was something I created in 2012 as an experiment with Cinema4D. We later use dthis as part of the Specimen Graduate Exhibition.",
+        "featureImage":   "/assets/skills-images/animation/crystals.png",
+        "image": [
+          "/assets/skills-images/animation/crystals.png"
+        ],
+        "tags": [
+          "Cinema4D"
+        ],
+        "projectLink": "https://vimeo.com/54993571"
+      },
+      {
+        "id": 15,
+        "catergory": "ANIMATION",
+        "title": "Specimen Trailer",
+        "date": "01 September 2012",
+        "content": "This was a trailer made for the Specimen Event. Built using Cinema4D for the graphics in the background",
+        "featureImage": "/assets/skills-images/animation/specimen-trailer.png",
+        "image": [
+          "/assets/skills-images/animation/specimen-trailer.png"
+        ],
+        "tags": [
+          "Cinema4D"
+        ],
+        "projectLink": "https://vimeo.com/54991203"
+      },
+      {
+        "id": 16,
+        "catergory": "ANIMATION",
+        "title": "Liquid Simulation",
+        "date": "01 September 2012",
+        "content": "This was an early prototype of a title sequence for a trailer. Built with Maya and Realflow. We ended up not using this because it looked suspiciously like something else...",
+        "featureImage": "/assets/skills-images/animation/liquid-specimen.png",
+        "image": [
+          "/assets/skills-images/animation/liquid-specimen.png"
+        ],
+        "tags": [
+          "Cinema4D"
+        ],
+        "projectLink": "https://vimeo.com/54505418"
+      },
+      {
+        "id": 17,
+        "catergory": "ANIMATION",
+        "title": "Particle Text Fill",
+        "date": "01 September 2012",
+        "content": "This was built exploring how we could animate a title opening. We ended up using this for a few different teasers for the event.",
+        "featureImage": "/assets/skills-images/animation/particle-text.png",
+        "image": [
+          "/assets/skills-images/animation/particle-text.png"
+        ],
+        "tags": [
+          "Cinema4D"
+        ],
+        "projectLink": "https://vimeo.com/54505413"
+      },
+      {
+        "id": 18,
+        "catergory": "ANIMATION",
+        "title": "Clouds",
+        "date": "01 September 2012",
+        "content": "Exploring the power of After Effects and the kind of effects you can get from it.",
+        "featureImage": "/assets/skills-images/animation/clouds.png",
+        "image": [
+          "/assets/skills-images/animation/clouds.png"
+        ],
+        "tags": [
+          "Cinema4D"
+        ],
+        "projectLink": "https://vimeo.com/52988453"
+      },
+      {
+        "id": 19,
+        "catergory": "ANIMATION",
+        "title": "Spheres",
+        "date": "01 September 2012",
+        "content": "Built using Cinema4D",
+        "featureImage": "/assets/skills-images/animation/clouds.png",
+        "image": [
+          "/assets/skills-images/animation/clouds.png"
+        ],
+        "tags": [
+          "Cinema4D"
+        ],
+        "projectLink": "https://vimeo.com/52988457"
+      },
+      {
+        "id": 16,
+        "catergory": "ANIMATION",
+        "title": "Dissolving Text",
+        "date": "01 September 2012",
+        "content": "This was an early prototype using Cinema4D on how we could animate the title for a video.",
+        "featureImage": "/assets/skills-images/animation/dissolving-text.png",
+        "image": [
+          "/assets/skills-images/animation/dissolving-text.png"
+        ],
+        "tags": [
+          "Cinema4D"
+        ],
+        "projectLink": "https://vimeo.com/54991935"
       }]

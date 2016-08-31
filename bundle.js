@@ -193,7 +193,7 @@
 	        'div',
 	        { className: 'side-quote' },
 	        _react2['default'].createElement(
-	          'p',
+	          'h1',
 	          { className: 'side-quote-text' },
 	          '"yep, i needed a whole new page to show you this"'
 	        )
@@ -25973,7 +25973,7 @@
 
 	  render: function render() {
 	    return _react2['default'].createElement(
-	      'div',
+	      'header',
 	      { className: 'header' },
 	      _react2['default'].createElement(
 	        'ul',
@@ -26487,7 +26487,7 @@
 
 	  render: function render() {
 	    return _react2['default'].createElement(
-	      'div',
+	      'footer',
 	      { className: 'footer' },
 	      _react2['default'].createElement(
 	        'p',
@@ -31827,7 +31827,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);", ""]);
 
 	// module
-	exports.push([module.id, "html, body {\n  font-size: 12px;\n  margin: 0;\n  height: 100%;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n#container {\n  display: -webkit-flex;\n  display: flex;\n  font-family: 'Montserrat', sans-serif; }\n  #container p, #container li {\n    font-family: Courier New;\n    font-size: 1.2rem;\n    display: inline-block;\n    vertical-align: top;\n    margin-left: 25px; }\n  #container a {\n    color: black;\n    text-decoration: none; }\n    #container a:hover {\n      transition: all 0.5s ease; }\n\n.content {\n  width: 100%;\n  display: block;\n  padding: 15px;\n  margin-top: 250px; }\n\n.wrapper {\n  position: relative;\n  width: 100%;\n  margin: auto; }\n  .wrapper .loading-bar {\n    position: fixed;\n    width: 100%;\n    height: 3px;\n    z-index: 6;\n    background: #E83FFF; }\n    .wrapper .loading-bar.run-animation {\n      -webkit-animation: grow 0.8s forwards;\n      /* Safari 4+ */\n      -moz-animation: grow 0.8s forwards;\n      /* Fx 5+ */\n      -o-animation: grow 0.8s forwards;\n      /* Opera 12+ */\n      animation: grow 0.8s forwards;\n      /* IE 10+, Fx 29+ */ }\n\n.side-quote {\n  position: absolute;\n  top: 120px;\n  padding: 15px; }\n\n/* ----------- \n\tANIMAITIONS :\n----------- */\n@-webkit-keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@-moz-keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@-o-keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@media screen and (min-width: 750px) {\n  html, body {\n    font-size: 12px;\n    margin: 0; }\n  .content {\n    width: 70%;\n    margin: 200px 5%; }\n    .content.projects-page {\n      float: right; }\n  .side-quote {\n    position: fixed;\n    right: 50px;\n    top: 240px; }\n    .side-quote .side-quote-text {\n      width: 300px;\n      transform: rotate(90deg);\n      transform-origin: top right;\n      transform: rotate(90deg) translateX(50%); }\n    .side-quote.projects-page {\n      left: 65px;\n      top: 80%; }\n      .side-quote.projects-page .side-quote-text {\n        transform-origin: bottom left;\n        transform: rotate(-90deg); } }\n", ""]);
+	exports.push([module.id, "html, body {\n  font-size: 12px;\n  margin: 0;\n  height: 100%;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box; }\n\n#container {\n  display: -webkit-flex;\n  display: flex;\n  font-family: 'Montserrat', sans-serif; }\n  #container p, #container li {\n    font-family: Courier New;\n    font-size: 1.2rem;\n    display: inline-block;\n    vertical-align: top;\n    margin-left: 25px; }\n  #container a {\n    color: black;\n    text-decoration: none; }\n    #container a:hover {\n      transition: all 0.5s ease; }\n\n.content {\n  width: 100%;\n  display: block;\n  padding: 15px;\n  margin-top: 250px; }\n\n.wrapper {\n  position: relative;\n  width: 100%;\n  margin: auto; }\n  .wrapper .loading-bar {\n    position: fixed;\n    width: 100%;\n    height: 3px;\n    z-index: 6;\n    background: #E83FFF; }\n    .wrapper .loading-bar.run-animation {\n      -webkit-animation: grow 0.8s forwards;\n      /* Safari 4+ */\n      -moz-animation: grow 0.8s forwards;\n      /* Fx 5+ */\n      -o-animation: grow 0.8s forwards;\n      /* Opera 12+ */\n      animation: grow 0.8s forwards;\n      /* IE 10+, Fx 29+ */ }\n\n.side-quote {\n  position: absolute;\n  top: 120px;\n  padding: 15px; }\n  .side-quote h1 {\n    font-weight: 300;\n    font-size: 1.2rem;\n    font-family: Courier New; }\n\n/* -----------\n\tANIMAITIONS :\n----------- */\n@-webkit-keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@-moz-keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@-o-keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@keyframes grow {\n  0% {\n    width: 0%; }\n  100% {\n    width: 100%; } }\n\n@media screen and (min-width: 750px) {\n  html, body {\n    font-size: 12px;\n    margin: 0; }\n  .content {\n    width: 70%;\n    margin: 200px 5%; }\n    .content.projects-page {\n      float: right; }\n  .side-quote {\n    position: fixed;\n    right: 50px;\n    top: 240px; }\n    .side-quote .side-quote-text {\n      width: 300px;\n      transform: rotate(90deg);\n      transform-origin: top right;\n      transform: rotate(90deg) translateX(50%); }\n    .side-quote.projects-page {\n      left: 65px;\n      top: 80%; }\n      .side-quote.projects-page .side-quote-text {\n        transform-origin: bottom left;\n        transform: rotate(-90deg); } }\n", ""]);
 
 	// exports
 

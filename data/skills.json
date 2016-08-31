@@ -1,8 +1,72 @@
 [{
         "id": 1,
         "catergory": "THREEJS",
+        "title": "Blender Animations threejs",
+        "date": "30 April 2016",
+        "content": "I wanted to explore how to import animations from blender into three.js",
+        "featureImage": "/assets/skills-images/threejs/blender-animations.png",
+        "image": [
+          "/assets/skills-images/threejs/blender-animations.png"
+        ],
+        "tags": [
+          "javascript",
+          "threejs",
+          "blender"
+        ],
+        "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-20/blender-animation-test-susan/"
+      },{
+        "id": 2,
+        "catergory": "PHYSICAL",
+        "title": "Touch Poster",
+        "date": "25 July 2016",
+        "content": "Playing with conductive ink with Charlie Gerard",
+        "featureImage": "/assets/skills-images/hardware/touch-poster.jpg",
+        "image": [
+          "/assets/skills-images/hardware/touch-poster.jpg"
+        ],
+        "tags": [
+          "Conductive Ink"
+        ],
+        "projectLink": "https://vimeo.com/180827616"
+      },{
+        "id": 3,
+        "catergory": "CANVAS",
+        "title": "Dot Canvas",
+        "date": "20 April 2016",
+        "content": "Trying to explore using the canvas with some math.",
+        "featureImage": "/assets/skills-images/threejs/dot-canvas.png",
+        "image": [
+          "/assets/skills-images/threejs/dot-canvas.png"
+        ],
+        "tags": [
+          "javascript",
+          "canvas"
+        ],
+        "projectLink": "http://daisymarie128.github.io/experiments/dot-canvas/"
+      },{
+        "id": 4,
+        "catergory": "HARDWARE",
+        "title": "First Hardware Project",
+        "date": "30 July 2016",
+        "content": "For NodeBots Sydney 2016 I decided to make a physical object that could control something in the browser. For this I used Node, websockets, an accelerometer and three.js . My aim in the future is to turn this prototype into something thats turns an ordinary object into a playful device which an audience can interact with.",
+        "featureImage": "/assets/skills-images/hardware/accelerometer.png",
+        "image": [
+          "/assets/skills-images/hardware/accelerometer.png"
+        ],
+        "tags": [
+          "javascript",
+          "threejs",
+          "arduino",
+          "websockets",
+          "node"
+        ],
+        "projectLink": "https://vimeo.com/180816623"
+      },
+      {
+        "id": 5,
+        "catergory": "THREEJS",
         "title": "Sprites - Threejs",
-        "date": "05 April 2015",
+        "date": "05 April 2016",
         "content": "This was made during the start of my two months off, I aimed to just see what I could animate with threejs and wanted to understand more about sprites and using them as textures.",
         "featureImage": "/assets/skills-images/shaders/gradient.png",
         "image": [
@@ -16,7 +80,7 @@
         "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-03/sprite-sphere/"
       },
       {
-        "id": 2,
+        "id": 6,
         "catergory": "SHADERS",
         "title": "Gradient Color Changer",
         "date": "02 April 2016",
@@ -32,7 +96,7 @@
         "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-02/beginner-shader-practice/boilerplate/"
       },
       {
-        "id": 3,
+        "id": 7,
         "catergory": "SHADERS",
         "title": "Raindow Spinner",
         "date": "02 April 2016",
@@ -49,8 +113,8 @@
         "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-03/rainbow-poster/"
       },
       {
-        "id": 4,
-        "catergory": "THREEJS SHADERS",
+        "id": 8,
+        "catergory": "SHADERS",
         "title": "Displacement Shader",
         "date": "03 April 2016",
         "content": "Trying to experiment with the vertex shader and how to animate an object. This was a little confusing to me at first, also ran into some problems with holes in my geometry after getting the animation to work.",
@@ -66,7 +130,7 @@
         "projectLink": "http://daisymarie128.github.io/webgl-sketches/day-04/displacement-maps/"
       },
       {
-        "id": 5,
+        "id": 9,
         "catergory": "THREEJS",
         "title": "POSTRENDERING EFFECT",
         "date": "01 September 2015",
@@ -82,8 +146,8 @@
         "projectLink": ""
       },
       {
-        "id": 6,
-        "catergory": "THREEJS SHADERS",
+        "id": 10,
+        "catergory": "SHADERS",
         "title": "Abstract Animations",
         "date": "05 April 2016",
         "content": "Trying to understand vertex shaders more and practice animating and distorting shapes.",
@@ -99,8 +163,8 @@
         "projectLink": "https://twitter.com/daisysmells/status/720518124722917376"
       },
       {
-        "id": 7,
-        "catergory": "THREEJS SHADERS",
+        "id": 11,
+        "catergory": "SHADERS",
         "title": "Clocks",
         "date": "01 June 2015",
         "content": "Something I created while working alongside Nicci Hurwitz at Google Creative Lab Sydney. This is one of the first things I had ever created and was proud of. At the time I was very new to creative coding and had very little experience with JS or programming in general. After being in a meeting and hearing Nicc's idea I was puzzled at how it was even possible. However after 30minutes of planning and deconstructing the problem I had a plan on how to make it and after a few hours of reading up on Angular I had a working prototype. I'm proud of this experiment because I saw how simple a complex problem could be, this experiment was built using just CSS and Angular.",
@@ -116,7 +180,7 @@
         "projectLink": ""
       },
       {
-        "id": 8,
+        "id": 12,
         "catergory": "3D GRAPHIC",
         "title": "Oceans",
         "date": "01 September 2012",
@@ -132,8 +196,8 @@
         "projectLink": "https://vimeo.com/105139261"
       },
       {
-        "id": 9,
-        "catergory": "GRAPHIC ANIMATION",
+        "id": 13,
+        "catergory": "ANIMATION",
         "title": "Orb",
         "date": "01 September 2012",
         "content": "This was something I created in 2012 as a test for what was possible to do in After Effects, and how to create a 3D particle feel without using any 3D software at all. It uses a set of images overlayed on each other and inimated effects to give the illussion of a 3D particle effect.",

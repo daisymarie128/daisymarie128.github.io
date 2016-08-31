@@ -1,0 +1,83 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CJTUyw-TDV_iaKZKTogP0n6KYAubLyMJE0beiyLIDwI23ARABIJ_c9hIoA2Cl-JGAkAGgAYerhNADyAEBqAMBqgRnT9AHfa8VFAmjV8w5b9en4Y-gxCF0Tz6IdL6Q3emfw1Mu7emxhG_y-8EaqwA_6tVBHnrW21GmRyPllIeXdgV72ZquZGogOrd4CMkGkeiyUO-H9vSdewlfVCQGfy8BQm8LuRuV4Ux2uIgGAYAH4dT7L6gHgcYbqAemvhvYBwHYEwg&amp;num=1&amp;cid=CAASEuRoYcsvmVitq8PxqtpIpwspxw&amp;sig=AOD64_1KMdLlvkuQ-ET3tAKZwMEjRoTB_Q&amp;client=ca-iwon-vimeo&amp;adurl=http://free.videodownloadconverter.com/index.jhtml%3Fpartner%3DHJxdm771"; 
+google_ad.visible_url = "www.videodownloadconverter.com"; 
+google_ad.p_creative_view_url = "";
+google_ad.p_engaged_view_url = "";
+google_ad.p_videoplaytime_25_url = "";
+google_ad.p_videoplaytime_50_url = "";
+google_ad.p_videoplaytime_75_url = "";
+google_ad.p_videoplaytime_100_url = "";
+google_ad.log_info = "BtenWw-TDV_iaKZKTogP0n6KYAgDRt6LIsgMAABABOAHIAQHCEyMKDxjsib5aIggIAxABGAEgABiHq4TQAxjEi53RAxj_zJvwAw";
+google_ad.activeview_cid = "CAASFeRoYcsvmVitq8PxqtpIpwspx1YrrA";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Start Download"; 
+google_ad.line2 = "Download Videos To Your Desktop"; 
+google_ad.line3 = "\x26amp; Convert To Any Format - All Free!"; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_ad = {}; 
+google_ad.n = 2; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=C1Lw5w-TDV_iaKZKTogP0n6KYArz9g4QIzIfx5OwCpMGg2rEFEAIgn9z2EigDYKX4kYCQAaABxIud0QPIAQGoAwGqBGpP0Hd5sRUXCaNXzDlv16fhj6DEIXRPPoh0vpDd6Z_DUy7t6bGEb_L7wRqrAD_q1UEeetbbUa5Hp7tLWpzt6pIySmqInOY-ansNFAWUXLFQW4T2gZ5zfFxc0QN_2gRCmgip-5N4Epo8O7FNiAYBgAek9OIuqAeBxhuoB6a-G9gHAdgTAg&amp;num=2&amp;cid=CAASEuRoYcsvmVitq8PxqtpIpwspxw&amp;sig=AOD64_0iV0Zsun4S2PFnHyoM9dc7bAXy0Q&amp;client=ca-iwon-vimeo&amp;adurl=http://clickserve.dartsearch.net/link/click%3F%26%26ds_e_adid%3D97755629588%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttp://www.telerik.com/campaigns/kendo-ui/free-trial-4"; 
+google_ad.visible_url = "www.telerik.com/kendo-ui"; 
+google_ad.p_creative_view_url = "";
+google_ad.p_engaged_view_url = "";
+google_ad.p_videoplaytime_25_url = "";
+google_ad.p_videoplaytime_50_url = "";
+google_ad.p_videoplaytime_75_url = "";
+google_ad.p_videoplaytime_100_url = "";
+google_ad.log_info = "BtenWw-TDV_iaKZKTogP0n6KYAgDRt6LIsgMAABABOAHIAQHCEyMKDxjsib5aIggIAxABGAEgABiHq4TQAxjEi53RAxj_zJvwAw";
+google_ad.activeview_cid = "CAASFeRoYcsvmVitq8PxqtpIpwspx1YrrA";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Build HTML5 \x26amp; jQuery Apps"; 
+google_ad.line2 = "70+ Responsive HTML5 UI Components"; 
+google_ad.line3 = "To Help You Build Apps Faster."; 
+google_ad.regionname = ""; 
+google_ads[1] = google_ad; 
+google_ad = {}; 
+google_ad.n = 3; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = ""; 
+google_ad.url = "https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CJWbQw-TDV_iaKZKTogP0n6KYAuu6psFGrYSH3asC9fyVh94DEAMgn9z2EigDYKX4kYCQAaAB_8yb8APIAQGpAvCn18CuU6k-qAMBqgRqT9A3HoIVFgmjV8w5b9en4Y-gxCF0Tz6IdL6Q3emfw1Mu7emxhG_y-8EaqwA_6tVBHnrW21GuR6e7S0Pg1_qSMkpqiJzmPmp7DRQFlFyxUFuE9oGec3xcXNEDf9oEQpoIqfuTeBKaeVaAbYgGAYAH6bLkD6gHgcYbqAemvhvYBwHYEwg&amp;num=3&amp;cid=CAASEuRoYcsvmVitq8PxqtpIpwspxw&amp;sig=AOD64_2thAC0jrB2H4D7O32uZSdMkHBM6Q&amp;client=ca-iwon-vimeo&amp;adurl=http://www.travelonline.com/fiji/holiday-packages.html"; 
+google_ad.visible_url = "travelonline.com/fiji-all-inclusive"; 
+google_ad.p_creative_view_url = "";
+google_ad.p_engaged_view_url = "";
+google_ad.p_videoplaytime_25_url = "";
+google_ad.p_videoplaytime_50_url = "";
+google_ad.p_videoplaytime_75_url = "";
+google_ad.p_videoplaytime_100_url = "";
+google_ad.log_info = "BtenWw-TDV_iaKZKTogP0n6KYAgDRt6LIsgMAABABOAHIAQHCEyMKDxjsib5aIggIAxABGAEgABiHq4TQAxjEi53RAxj_zJvwAw";
+google_ad.activeview_cid = "CAASFeRoYcsvmVitq8PxqtpIpwspx1YrrA";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Fiji All Inclusive Deals"; 
+google_ad.line2 = "Up To 50% Off Fiji Holiday Packages"; 
+google_ad.line3 = "Hurry, Limited All Inclusive Offers"; 
+google_ad.regionname = ""; 
+google_ads[2] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttps://vimeo.com/52988455%26gl%3DAU%26hl%3Den%26client%3Dca-iwon-vimeo%26hideleadgen%3D1%26ai0%3DCJTUyw-TDV_iaKZKTogP0n6KYAubLyMJE0beiyLIDwI23ARABIJ_c9hIoA2Cl-JGAkAGgAYerhNADyAEBqAMBqgRnT9AHfa8VFAmjV8w5b9en4Y-gxCF0Tz6IdL6Q3emfw1Mu7emxhG_y-8EaqwA_6tVBHnrW21GmRyPllIeXdgV72ZquZGogOrd4CMkGkeiyUO-H9vSdewlfVCQGfy8BQm8LuRuV4Ux2uIgGAYAH4dT7L6gHgcYbqAemvhvYBwHYEwg%26ai1%3DC1Lw5w-TDV_iaKZKTogP0n6KYArz9g4QIzIfx5OwCpMGg2rEFEAIgn9z2EigDYKX4kYCQAaABxIud0QPIAQGoAwGqBGpP0Hd5sRUXCaNXzDlv16fhj6DEIXRPPoh0vpDd6Z_DUy7t6bGEb_L7wRqrAD_q1UEeetbbUa5Hp7tLWpzt6pIySmqInOY-ansNFAWUXLFQW4T2gZ5zfFxc0QN_2gRCmgip-5N4Epo8O7FNiAYBgAek9OIuqAeBxhuoB6a-G9gHAdgTAg%26ai2%3DCJWbQw-TDV_iaKZKTogP0n6KYAuu6psFGrYSH3asC9fyVh94DEAMgn9z2EigDYKX4kYCQAaAB_8yb8APIAQGpAvCn18CuU6k-qAMBqgRqT9A3HoIVFgmjV8w5b9en4Y-gxCF0Tz6IdL6Q3emfw1Mu7emxhG_y-8EaqwA_6tVBHnrW21GuR6e7S0Pg1_qSMkpqiJzmPmp7DRQFlFyxUFuE9oGec3xcXNEDf9oEQpoIqfuTeBKaeVaAbYgGAYAH6bLkD6gHgcYbqAemvhvYBwHYEwg\x26usg\x3dAFQjCNEhcSC9iirbR7DdDMrSAMH7MMB-sw";
+var google_attribution_text = "Ads by Google";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

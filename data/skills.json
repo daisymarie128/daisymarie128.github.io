@@ -27,7 +27,7 @@
         "tags": [
           "Conductive Ink"
         ],
-        "projectLink": "https://vimeo.com/180827616"
+        "projectLink": "https://vimeo.com/181128904"
       },{
         "id": 3,
         "catergory": "CANVAS",
@@ -255,6 +255,21 @@
           "Cinema4D"
         ],
         "projectLink": "https://vimeo.com/54505418"
+      },
+      {
+        "id": 17,
+        "catergory": "ANIMATION",
+        "title": "Smoke Simulation",
+        "date": "01 September 2012",
+        "content": "This was an experiment for building my skills and understanding of how fluid simulations worked using Maya.",
+        "featureImage": "/assets/skills-images/animation/smoke.jpg",
+        "image": [
+          "/assets/skills-images/animation/smoke.jpg"
+        ],
+        "tags": [
+          "Maya"
+        ],
+        "projectLink": "https://vimeo.com/181130797"
       },
       {
         "id": 17,

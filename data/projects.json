@@ -50,7 +50,7 @@
         "date": "September 2015",
         "filterTags": "code javascript frameworks animation",
         "tagList": ["javascript", "SCSS", "Angular", "Grunt", "Gulp", "Device-motion"],
-        "content": "The about book was a promotional website to promote the project Editions At Play befefore it launched. It acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions to understand more about Editions At Play.",
+        "content": "The about book was a promotional website to promote the project Editions At Play before it launched. It acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions to understand more about Editions At Play.",
         "featureImage": "/assets/project-images/books/about-book.png",
         "image": [
           "/assets/project-images/books/lamp_book_stack.png",
@@ -83,7 +83,7 @@
         "date": "April 2016",
         "filterTags": "code javascript frameworks",
         "tagList": ["javascript", "web-audio-API", "SCSS", "Angular", "Grunt", "Gulp"],
-        "content": "The year is 2116. Eugenics experiments have failed to curb the city's dense population, which drowns in perpetual shadows cast by a layer of giant towers scraping the stratosphere miles above.Further below an ancient and mysterious world crumbles... STRATA is a book about the future, made for the future. Directed and illustrated by Tommy Lee Edwards, with music and sound design by I Speak Machine, it comprises science fiction and essays by eight stellar writers. This was another digital book I worked on while at Google Creative Lab",
+        "content": "The year is 2116. Eugenics experiments have failed to curb the city's dense population, which drowns in perpetual shadows cast by a layer of giant towers scraping the stratosphere miles above. Further below an ancient and mysterious world crumbles... STRATA is a book about the future, made for the future. Directed and illustrated by Tommy Lee Edwards, with music and sound design by I Speak Machine, it comprises science fiction and essays by eight stellar writers. This was another digital book I worked on while at Google Creative Lab",
         "featureImage": "/assets/project-images/books/strata.png",
         "image": [
           "/assets/project-images/books/penguin.jpg",
@@ -100,7 +100,7 @@
         "date": "April 2016",
         "filterTags": "code threejs javascript frameworks animation",
         "tagList": ["Threejs", "SCSS", "Angular", "Grunt", "Gulp"],
-        "content": "Another book I worked on while at Google Creative Lab for Editions At Play. Written by Alan Trotter, this is the book that loses its memory. Built using Angular.js, Three.js and Compass. It uses the accelerometer in a persons phone and on particular pages text shakes or falls depending on your movement/interaction with the story.",
+        "content": "Another book I worked on while at Google Creative Lab for Editions At Play. Written by Alan Trotter, this is the book that loses its memory. Built using Angular.js, Three.js and Compass. It uses the accelerometer in a person's phone and on particular pages text shakes or falls depending on your movement/interaction with the story.",
         "featureImage": "/assets/project-images/books/all-this-rotting.png",
         "image": [
           "/assets/project-images/books/all-this-rotting-insitu.jpg",
@@ -116,7 +116,7 @@
         "date": "October 2014",
         "filterTags": "javascript code datavis design ux frameworks",
         "tagList": ["datavis", "react", "d3", "design", "ui/ux"],
-        "content": "This is a collection of projects I worked on at my time at Arup. Bureau of Transport Statistics is apart of Transport for NSW. A range of different data visualisations were built to present their collection of data to the public. Many of the visualisations I worked closley on are private and not public facing. My involvement in the development of these visualisations you see here varied from each one and my roles varied from basic data manipulation, preparaion and bug fixing through to building the web apps from the ground up.",
+        "content": "This is a collection of projects I worked on at my time at Arup. Bureau of Transport Statistics is apart of Transport for NSW. A range of different data visualisations were built to present their collection of data to the public. Many of the visualisations I worked closely on are private and not public facing. My involvement in the development of these visualisations you see here varied from each one and my roles varied from basic data manipulation, preparation and bug fixing through to building the web apps from the ground up.",
         "featureImage": "/assets/project-images/bts/bts-ins.png",
         "image": [
           "/assets/project-images/bts/bts-tz.png",
@@ -138,7 +138,7 @@
         "date": "January 2015",
         "filterTags": "javascript design ",
         "tagList": ["Javascript", "Leap Motion", "Design"],
-        "content": "This project was built using vanilla JS and a Leap Motion, I worked on this while I was at Arup Digital. It was for a work client party to showcase different things that we could do, to play the game visitors were invited to use the leap motion as the controller for the game. People would just have to move there hand left or right to move there paddle and play against a computer or another player. We were given sometime to think about what we could build for the event and planned that it should be something engaging and playful. It was nice to see this whole project come together in a days work, while playing with something new and interesting.",
+        "content": "This project was built using vanilla JS and a Leap Motion, I worked on this while I was at Arup Digital. It was for a work client party to showcase different things that we could do, to play the game visitors were invited to use the leap motion as the controller for the game. People would just have to move their hand left or right to move their paddle and play against a computer or another player. We were given sometime to think about what we could build for the event and planned that it should be something engaging and playful. It was nice to see this whole project come together in a day's work, while playing with something new and interesting.",
         "featureImage": "/assets/project-images/arup/pong.png",
         "image": [
           "/assets/project-images/arup/leapmotion.png"
@@ -158,7 +158,7 @@
         "date": "December 2014",
         "filterTags": "rails javascript ux",
         "tagList": ["javascript", "rails", "CMS"],
-        "content": "While at Arup I had the pleasure of building a few mini prjects for internal days. They usually invovled building a CMS or building a platform for employes to post, like, share and veiw relevant information about that specific event/innittive. These projects were always fun as the deadlines were short and the brief was small and flexable. This made it a good way to keep up with a full range of skills and try out different features I was interested in. ",
+        "content": "While at Arup I had the pleasure of building a few mini projects for internal day's. They usually involved building a CMS or building a platform for employees to post, like, share and veiw relevant information about that specific event/initiative. These projects were always fun as the deadlines were short and the brief was small and flexible. This made it a good way to keep up with a full range of skills and try out different features I was interested in. ",
         "featureImage": "/assets/project-images/arup/ARUP_logo.jpg",
         "image": [
           "/assets/project-images/arup/operahouse-site.png",
@@ -174,7 +174,7 @@
         "date": "01 September 2015",
         "filterTags": "animation design",
         "tagList": ["Realfow", "After Effects", "Maya", "Cinema4D"],
-        "content": "BRIEF Billy Blue college of design holds a unique exhibition for each graduating class.PROCESS. Billy Blue college of design holds a unique exhibition for each graduating class. The project consisted of a few different teams of people including communication, branded, spacial, digital and a team of lecturers. As soon as the project started it was all in. First off though a brand and theme had to be chosen and after a numerous amount of thinking, designing and re-thinking the team had decided on ‘Specimen’ as our theme. It was now time to get down to the nitty gritty and start designing off this theme which was great. It alowed me to explore new programs and develop my digital skills. I played a makor role in the digital team creating animations which were used for pod projections, video elements on the website, promo teasers for the event and also used for promotional posters. Working on this project was a blast and also a great development of my skills.",
+        "content": "Billy Blue college of design holds a unique exhibition for each graduating class. The project consisted of a few different teams of people including communication, branded, spacial, digital and a team of lecturers. I worked in the digital team creating animations which were used for pod projections, video elements on the website, promo teasers for the event and also used for promotional posters. Working on this project was a blast and also a great development of my skills.",
         "featureImage": "/assets/project-images/animation/specimen.jpg",
         "image": [
           "/assets/project-images/animation/specimen3.jpg",
@@ -197,7 +197,7 @@
         "date": "01 June 2011",
         "filterTags": "animation design",
         "tagList": ["After Effects", "Illustrator"],
-        "content": "I created this short animation in 2011. The brief was to create an animation on using letters, which represented the quote from Albert Ienstein To invent something, all you need is imagination and a big pile of junk. I complemented this with the song by Gene Simons, Imagination. I created all the elements in Illustrator and animated the project in After Effects.",
+        "content": "I created this short animation in 2011. The brief was to create an animation on using letters, which represented the quote from Albert Einstein 'To invent something, all you need is imagination and a big pile of junk'. I complemented this with the song by Gene Simons, Imagination. I created all the elements in Illustrator and animated the project in After Effects.",
         "featureImage": "/assets/project-images/animation/lightbulb-2.png",
         "image": [
           "/assets/project-images/animation/lightbulb.png",

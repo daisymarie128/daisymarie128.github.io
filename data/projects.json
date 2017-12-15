@@ -1,223 +1,341 @@
 [{
-        "id": 1,
-        "filterTags": "javascript code threejs animation",
-        "tagList": ["javascript", "code", "threejs", "animation"],
-        "title": "Code in the Park",
-        "date": "April 2016",
-        "content": "Code In The Park was an event put on by General Assembly and Yahoo7, for VIVID Ideas Sydney. The event brought out 700+ people to learn more about coding on a saturday afternoon, I had the pleasure of collaborating with Charlie Gerard / @charlie__g on the background video which was played throughout the event. We built this video using different animation techniques with code, but a majority of it used threejs.",
-        "featureImage": "/assets/project-images/video/code-in-the-park.png",
-        "image": [
-          "/assets/project-images/video/abstract.png",
-          "/assets/project-images/video/sponsor.png",
-          "/assets/project-images/video/abstract2.png"
-        ],
-        "projectLink": "https://vimeo.com/180549893"
-      },{
-          "id": 2,
-          "filterTags": "javascript code threejs animation",
-          "tagList": ["javascript", "code", "threejs", "animation"],
-          "title": "Code in the Cinema",
-          "date": "August 2016",
-          "content": "Code In The Cinema was an event put on by General Assembly and Melbourne International Film Festival. The event brought out 400+ people to learn more about coding and support Melbourne's growth as a creative, tech and innovation hub. I had the pleasure of collaborating with Charlie Gerard / @charlie__g on the background video which was played throughout the event. We built this video using different animation techniques with code, but a majority of it used threejs.",
-          "featureImage": "/assets/project-images/video/code-in-the-cinema.png",
-          "image": [
-            "/assets/project-images/video/abstract.png",
-            "/assets/project-images/video/melbourne-sponsors.png",
-            "/assets/project-images/video/code-in-the-cinema2.jpg",
-            "/assets/project-images/video/code-in-the-cinema3.jpg",
-            "/assets/project-images/video/code-in-the-cinema4.jpg",
-            "/assets/project-images/video/abstract2.png"
-          ],
-          "projectLink": "https://vimeo.com/180549893"
-        },
-      {
-        "id": 3,
-        "filterTags": "javascript code frameworks css animation",
-        "tagList":["javascript", "SCSS", "Angular", "Grunt", "Gulp"],
-        "title": "Editions at Play",
-        "date": "January 2016",
-        "content": "Editions At Play is an initiative by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the web. This website was a bookstore for selling our digital books.",
-        "featureImage": "/assets/project-images/eap/eap-logo.gif",
-        "image": [
-          "/assets/project-images/eap/eap-books.gif",
-          "/assets/project-images/eap/eap-insitu.png"
-        ],
-        "projectLink": "https://editionsatplay.withgoogle.com"
-      },
-       {
-        "id": 4,
-        "title": "About Book",
-        "date": "September 2015",
-        "filterTags": "code javascript frameworks animation",
-        "tagList": ["javascript", "SCSS", "Angular", "Grunt", "Gulp", "Device-motion"],
-        "content": "The about book was a promotional website to promote the project Editions At Play before it launched. It acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions to understand more about Editions At Play.",
-        "featureImage": "/assets/project-images/books/about-book.png",
-        "image": [
-          "/assets/project-images/books/lamp_book_stack.png",
-          "/assets/project-images/books/trinkets.png"
-        ],
-        "video": [
-        ],
-        "projectLink": ""
-      },
-       {
-        "id": 5,
-        "title": "Entrances & Exits",
-        "date": "January 2016",
-        "filterTags": "code javascript frameworks",
-        "tagList": ["Javascript", "CSS"],
-        "content": "Entrances & Exits by Reif Larsen is a Borgesian love story told through Google Street View, in which the narrator discovers a mysterious key in an abandoned bookshop and gradually learns of its power to open and close doors around the world. The story is a beautiful dance between fictional narrative real locations that seamlessly spans the globe.",
-        "featureImage": "/assets/project-images/books/eae_04_1.jpg",
-        "image": [
-          "/assets/project-images/books/reif-01.png",
-          "/assets/project-images/books/reif-02.png",
-          "/assets/project-images/books/reif-03.png"
-        ],
-        "video": [
-        ],
-        "projectLink": "https://entrances-exits.com/"
-      },
-       {
-        "id": 6,
-        "title": "Strata",
-        "date": "April 2016",
-        "filterTags": "code javascript frameworks",
-        "tagList": ["javascript", "web-audio-API", "SCSS", "Angular", "Grunt", "Gulp"],
-        "content": "The year is 2116. Eugenics experiments have failed to curb the city's dense population, which drowns in perpetual shadows cast by a layer of giant towers scraping the stratosphere miles above. Further below an ancient and mysterious world crumbles... STRATA is a book about the future, made for the future. Directed and illustrated by Tommy Lee Edwards, with music and sound design by I Speak Machine, it comprises science fiction and essays by eight stellar writers. This was another digital book I worked on while at Google Creative Lab",
-        "featureImage": "/assets/project-images/books/strata.png",
-        "image": [
-          "/assets/project-images/books/penguin.jpg",
-          "/assets/project-images/books/strata-paging.png",
-          "/assets/project-images/books/strata-icon.png"
-        ],
-        "video": [
-        ],
-        "projectLink": "https://strata.world/"
-      },
-       {
-        "id": 7,
-        "title": "All this Rotting",
-        "date": "April 2016",
-        "filterTags": "code threejs javascript frameworks animation",
-        "tagList": ["Threejs", "SCSS", "Angular", "Grunt", "Gulp"],
-        "content": "Another book I worked on while at Google Creative Lab for Editions At Play. Written by Alan Trotter, this is the book that loses its memory. Built using Angular.js, Three.js and Compass. It uses the accelerometer in a person's phone and on particular pages text shakes or falls depending on your movement/interaction with the story.",
-        "featureImage": "/assets/project-images/books/all-this-rotting.png",
-        "image": [
-          "/assets/project-images/books/all-this-rotting-insitu.jpg",
-          "/assets/project-images/books/ATR-tablet.png"
-        ],
-        "video": [
-        ],
-        "projectLink": "https://allthisrotting.com/#/"
-      },
-       {
-        "id": 8,
-        "title": "BTS data vis",
-        "date": "October 2014",
-        "filterTags": "javascript code datavis design ux frameworks",
-        "tagList": ["datavis", "react", "d3", "design", "ui/ux"],
-        "content": "This is a collection of projects I worked on at my time at Arup. Bureau of Transport Statistics is apart of Transport for NSW. A range of different data visualisations were built to present their collection of data to the public. Many of the visualisations I worked closely on are private and not public facing. My involvement in the development of these visualisations you see here varied from each one and my roles varied from basic data manipulation, preparation and bug fixing through to building the web apps from the ground up.",
-        "featureImage": "/assets/project-images/bts/bts-ins.png",
-        "image": [
-          "/assets/project-images/bts/bts-tz.png",
-          "/assets/project-images/bts/bts-lga.png",
-          "/assets/project-images/bts/pie-chart.png"
-        ],
-        "video": [
-          "//player.vimeo.com/video/54991203?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/54991204?byline=0&amp;portrait=0&amp;color=7BC794",
-          "//player.vimeo.com/video/52988457?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/51874767?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/54505413?byline=0&amp;color=7BC794"
-        ],
-        "projectLink": "http://www.bts.nsw.gov.au/Data-Visualisations"
-      },
-       {
-        "id": 9,
-        "title": "Pong",
-        "date": "January 2015",
-        "filterTags": "javascript design ",
-        "tagList": ["Javascript", "Leap Motion", "Design"],
-        "content": "This project was built using vanilla JS and a Leap Motion, I worked on this while I was at Arup Digital. It was for a work client party to showcase different things that we could do, to play the game visitors were invited to use the leap motion as the controller for the game. People would just have to move their hand left or right to move their paddle and play against a computer or another player. We were given sometime to think about what we could build for the event and planned that it should be something engaging and playful. It was nice to see this whole project come together in a day's work, while playing with something new and interesting.",
-        "featureImage": "/assets/project-images/arup/pong.png",
-        "image": [
-          "/assets/project-images/arup/leapmotion.png"
-        ],
-        "video": [
-          "//player.vimeo.com/video/54991203?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/54991204?byline=0&amp;portrait=0&amp;color=7BC794",
-          "//player.vimeo.com/video/52988457?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/51874767?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/54505413?byline=0&amp;color=7BC794"
-        ],
-        "projectLink": ""
-      },
-       {
-        "id": 10,
-        "title": "Mini-projects",
-        "date": "December 2014",
-        "filterTags": "rails javascript ux",
-        "tagList": ["javascript", "rails", "CMS"],
-        "content": "While at Arup I had the pleasure of building a few mini projects for internal day's. They usually involved building a CMS or building a platform for employees to post, like, share and veiw relevant information about that specific event/initiative. These projects were always fun as the deadlines were short and the brief was small and flexible. This made it a good way to keep up with a full range of skills and try out different features I was interested in. ",
-        "featureImage": "/assets/project-images/arup/ARUP_logo.jpg",
-        "image": [
-          "/assets/project-images/arup/operahouse-site.png",
-          "/assets/project-images/arup/crowdsourcing.png"
-        ],
-        "video": [
-        ],
-        "projectLink": ""
-      },
-       {
-        "id": 11,
-        "title": "Specimen",
-        "date": "01 September 2015",
-        "filterTags": "animation design",
-        "tagList": ["Realfow", "After Effects", "Maya", "Cinema4D"],
-        "content": "Billy Blue college of design holds a unique exhibition for each graduating class. The project consisted of a few different teams of people including communication, branded, spacial, digital and a team of lecturers. I worked in the digital team creating animations which were used for pod projections, video elements on the website, promo teasers for the event and also used for promotional posters. Working on this project was a blast and also a great development of my skills.",
-        "featureImage": "/assets/project-images/animation/specimen.jpg",
-        "image": [
-          "/assets/project-images/animation/specimen3.jpg",
-          "/assets/project-images/animation/specimen-website.jpg",
-          "/assets/project-images/animation/specimen-posters.jpg",
-          "/assets/project-images/animation/spoecimen-event.jpg"
-        ],
-        "video": [
-          "//player.vimeo.com/video/54991203?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/54991204?byline=0&amp;portrait=0&amp;color=7BC794",
-          "//player.vimeo.com/video/52988457?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/51874767?byline=0&amp;color=7BC794",
-          "//player.vimeo.com/video/54505413?byline=0&amp;color=7BC794"
-        ],
-        "projectLink": "https://vimeo.com/60140091"
-      },
-       {
-        "id": 12,
-        "title": "Lightbulb Quote",
-        "date": "01 June 2011",
-        "filterTags": "animation design",
-        "tagList": ["After Effects", "Illustrator"],
-        "content": "I created this short animation in 2011. The brief was to create an animation on using letters, which represented the quote from Albert Einstein 'To invent something, all you need is imagination and a big pile of junk'. I complemented this with the song by Gene Simons, Imagination. I created all the elements in Illustrator and animated the project in After Effects.",
-        "featureImage": "/assets/project-images/animation/lightbulb-2.png",
-        "image": [
-          "/assets/project-images/animation/lightbulb.png",
-          "/assets/project-images/animation/lightbulb-1.png"
-        ],
-        "video": [
-        ],
-        "projectLink": "http://vimeo.com/52988455"
-      },
-       {
-        "id": 13,
-        "title": "Neurosky Visualiser",
-        "date": "01 September 2015",
-        "filterTags": "code datavis",
-        "tagList": ["javascript", "Neurosky Headset", "D3"],
-        "content": "Work in progress currently. Working on creating a visualizer for the Neurosky Brainsensor, the visualizer will help us analyse data faster and be able to identify patterns in data corresponding to certain actions executed while wearing the sensor. Working with Charlie Gerard.",
-        "featureImage": "images/nuero.png",
-        "image": [
-        ],
-        "video": [
-        ],
-        "projectLink": ""
-      }]
+    "id": 1,
+    "filterTags": "javascript react redux canvas postCSS threejs animation",
+    "tagList": ["javascript", "frameworks", "code", "threejs", "glsl", "canvas", "animation", "After Effects"],
+    "title": "Next Visionaries - BMW, TED",
+    "date": "July 2017",
+    "content": "BMW i partnered with TED to create Next Visionaries, a global initiative that seeks to engage innovators, change-makers, dreamers and future thinkers to reimagine the future of mobility. \n I worked on the hero animation and various other animation touches throughout the site.",
+    "featureImage": "/assets/project-images/next-visionaries/hero.png",
+    "image": [      
+      "/assets/project-images/next-visionaries/ted-logo.png",
+      "/assets/project-images/next-visionaries/bmw-logo.png"
+    ],
+    "projectLink": "https://nextvisionaries.com/"
+  }, {
+    "id": 2,
+    "filterTags": "javascript node pug mocha UX",
+    "tagList": ["javascript", "node", "code", "ui/ux"],
+    "title": "The Christmas Snowflake - Wonderbly",
+    "date": "October 2017",
+    "content": "I worked along side project managers, designers and creatives in order to create this book.",
+    "featureImage": "/assets/project-images/wonderbly/scs/hero-image.jpg",
+    "image": [      
+      "/assets/project-images/wonderbly/scs/scs-box.jpg",
+      "/assets/project-images/wonderbly/scs/scs-strockings.jpg",
+      "/assets/project-images/wonderbly/scs/scs-wind.jpg",
+      "/assets/project-images/wonderbly/scs/scs-snowflake.jpg"
+    ],
+    "projectLink": "wwww.wonderbly.com/personalized-products/the-christmas-snowflake"
+  }, {
+    "id": 2,
+    "filterTags": "javascript bash photoshop",
+    "tagList": ["javascript", "bash", "photoshop"],
+    "title": "My Golden Ticket Dynamic Images - Wonderbly",
+    "date": "October 2017",
+    "content": "This was a small peice of work, where I scripted and dynamically rendered 40K+ unique and personalised images for marketing purposes. Each image had to use the customers name and also change aspects on the rendered image.",
+    "featureImage": "/assets/project-images/wonderbly/mgt-email/mgt-candy-bar.gif",
+    "image": [      
+      "/assets/project-images/wonderbly/mgt-email/mgt-rd-logo.jpg",
+      "/assets/project-images/wonderbly/wonderbly/wonderbly-logo.png"
+    ],
+    "projectLink": "wwww.wonderbly.com/personalized-products/the-christmas-snowflake"
+  }, {
+    "id": 3,
+    "filterTags": "javascript node react redux mocha UX",
+    "tagList": ["javascript", "node", "code", "ui/ux"],
+    "title": "Wonderbly website",
+    "date": "September 2017",
+    "content": "",
+    "featureImage": "/assets/project-images/wonderbly/website/wonderbly-logo.png",
+    "image": [      
+      "/assets/project-images/wonderbly/website/wonderbly-long-image.jpg",
+      "/assets/project-images/wonderbly/website/landing-page.png",
+      "/assets/project-images/wonderbly/website/book-preview.png"
+    ],
+    "projectLink": "wwww.wonderbly.com/personalized-products/the-christmas-snowflake"
+  }, {
+    "id": 4,
+    "filterTags": "javascript node mocha UX",
+    "tagList": ["javascript", "node", "code", "ui/ux"],
+    "title": "The Littlest Bear - Wonderbly",
+    "date": "July 2017",
+    "content": "This was the first PHISICAL book I've made. I worked along side UX, Designers and creatives to release this book.",
+    "featureImage": "/assets/project-images/wonderbly/tlb/tlb-hero-image.jpg",
+    "image": [      
+      "/assets/project-images/wonderbly/tlb/tlb-party.jpg",
+      "/assets/project-images/wonderbly/tlb/tlb-flap.jpg",
+      "/assets/project-images/wonderbly/tlb/tlb-flap2.jpg",
+      "/assets/project-images/wonderbly/website/wonderbly-logo.png"
+    ],
+    "projectLink": "wwww.wonderbly.com/personalized-products/the-christmas-snowflake"
+  }, {
+    "id": 2,
+    "filterTags": "javascript python code",
+    "tagList": ["javascript", "python", "code"],
+    "title": "24: Legacy",
+    "date": "April 2017",
+    "content": "This was a prject I worked on for the 24 legacy tv serious, which encorporated collaboration from designers and creatives to deliver this on time.",
+    "featureImage": "/assets/project-images/24-legacy/24-lefacy-hero.jpg",
+    "image": [
+      "/assets/project-images/24-legacy/24-lefacy-game.jpg",
+      "/assets/project-images/24-legacy/24-lefacy-logo.png"
+    ],
+    "projectLink": "https://www.pocket-lint.com/apps/news/facebook/140250-24-legacy-interactive-facebook-messenger-game-throws-you-into-the-action-ahead-of-the-show-s-premiere"
+  }, {
+    "id": 3,
+    "filterTags": "javascript code",
+    "tagList": ["javascript", "frameworks", "code"],
+    "title": "Halo - Digital Landfill",
+    "date": "March 2017",
+    "content": "...",
+    "featureImage": "/assets/project-images/halo-dl/halo-hero.jpg",
+    "image": [
+      "/assets/project-images/halo-dl/halo-logo.jpg",
+      "/assets/project-images/halo-dl/halo-insitu-2.jpg",
+      "/assets/project-images/halo-dl/halo-website.png",
+      "/assets/project-images/halo-dl/halo-website-2.png",
+      "/assets/project-images/halo-dl/halo-insitu.jpg"
+    ],
+    "projectLink": "https://www.thedigitallandfill.co.uk/"
+  }, {
+    "id": 4,
+    "filterTags": "javascript react redux code",
+    "tagList": ["javascript", "frameworks", "code"],
+    "title": "Stink Studios Website",
+    "date": "January 2017",
+    "content": "...",
+    "featureImage": "/assets/project-images/stink/stink-website.png",
+    "image": [
+      "/assets/project-images/stink/stink-mobile.png",
+      "/assets/project-images/stink/stink-logo.png"
+    ],
+    "projectLink": "http://stink.co/"
+  }, {
+    "id": 5,
+    "filterTags": "javascript python canvas pixi.js react redux",
+    "tagList": ["javascript", "python", "canvas", "pixi.js", "react", "readux", "code"],
+    "title": "Strava - My Year in Sport",
+    "date": "November 2016",
+    "content": "A unique personalised film that tells the story of every Strava athlete's 2016. I primarily worked on the loader and also form handling and UI.",
+    "featureImage": "/assets/project-images/strava/strava-logo.png",
+    "image": [
+      "/assets/project-images/strava/strava.jpg",
+      "/assets/project-images/strava/strava-2.jpg"
+    ],
+    "projectLink": "https://www.stinkstudios.com/work/strava-my-year-in-sport"
+  }, {
+    "id": 2,
+    "filterTags": "javascript code threejs animation",
+    "tagList": ["javascript", "code", "threejs", "animation"],
+    "title": "Code in the Park",
+    "date": "April 2016",
+    "content": "Code In The Park was an event put on by General Assembly and Yahoo7, for VIVID Ideas Sydney. The event brought out 700+ people to learn more about coding on a saturday afternoon, I had the pleasure of collaborating with Charlie Gerard / @charlie__g on the background video which was played throughout the event. We built this video using different animation techniques with code, but a majority of it used threejs.",
+    "featureImage": "/assets/project-images/video/code-in-the-park.png",
+    "image": [
+      "/assets/project-images/video/abstract.png",
+      "/assets/project-images/video/sponsor.png",
+      "/assets/project-images/video/abstract2.png"
+    ],
+    "projectLink": "https://vimeo.com/180549893"
+  }, {
+    "id": 2,
+    "filterTags": "javascript code threejs animation",
+    "tagList": ["javascript", "code", "threejs", "animation"],
+    "title": "Code in the Cinema",
+    "date": "August 2016",
+    "content": "Code In The Cinema was an event put on by General Assembly and Melbourne International Film Festival. The event brought out 400+ people to learn more about coding and support Melbourne's growth as a creative, tech and innovation hub. I had the pleasure of collaborating with Charlie Gerard / @charlie__g on the background video which was played throughout the event. We built this video using different animation techniques with code, but a majority of it used threejs.",
+    "featureImage": "/assets/project-images/video/code-in-the-cinema.png",
+    "image": [
+      "/assets/project-images/video/abstract.png",
+      "/assets/project-images/video/melbourne-sponsors.png",
+      "/assets/project-images/video/code-in-the-cinema2.jpg",
+      "/assets/project-images/video/code-in-the-cinema3.jpg",
+      "/assets/project-images/video/code-in-the-cinema4.jpg",
+      "/assets/project-images/video/abstract2.png"
+    ],
+    "projectLink": "https://vimeo.com/180549893"
+  },
+  {
+    "id": 3,
+    "filterTags": "javascript code frameworks css animation",
+    "tagList": ["javascript", "SCSS", "Angular", "Grunt", "Gulp"],
+    "title": "Editions at Play",
+    "date": "January 2016",
+    "content": "Editions At Play is an initiative by Visual Editions and Google’s Creative Lab to explore a new kind of book: one which makes use of the dynamic properties of the web. This website was a bookstore for selling our digital books.",
+    "featureImage": "/assets/project-images/eap/eap-logo.gif",
+    "image": [
+      "/assets/project-images/eap/eap-books.gif",
+      "/assets/project-images/eap/eap-insitu.png"
+    ],
+    "projectLink": "https://editionsatplay.withgoogle.com"
+  },
+  {
+    "id": 4,
+    "title": "About Book",
+    "date": "September 2015",
+    "filterTags": "code javascript frameworks animation",
+    "tagList": ["javascript", "SCSS", "Angular", "Grunt", "Gulp", "Device-motion"],
+    "content": "The about book was a promotional website to promote the project Editions At Play before it launched. It acted as a mini book which a user would interact with and read in order to find out more about the project to come. The About book functioned as a long horizontal scrolling book, which would activate different animations and promote the user for actions to understand more about Editions At Play.",
+    "featureImage": "/assets/project-images/books/about-book.png",
+    "image": [
+      "/assets/project-images/books/lamp_book_stack.png",
+      "/assets/project-images/books/trinkets.png"
+    ],
+    "video": [],
+    "projectLink": ""
+  },
+  {
+    "id": 5,
+    "title": "Entrances & Exits",
+    "date": "January 2016",
+    "filterTags": "code javascript frameworks",
+    "tagList": ["Javascript", "CSS"],
+    "content": "Entrances & Exits by Reif Larsen is a Borgesian love story told through Google Street View, in which the narrator discovers a mysterious key in an abandoned bookshop and gradually learns of its power to open and close doors around the world. The story is a beautiful dance between fictional narrative real locations that seamlessly spans the globe.",
+    "featureImage": "/assets/project-images/books/eae_04_1.jpg",
+    "image": [
+      "/assets/project-images/books/reif-01.png",
+      "/assets/project-images/books/reif-02.png",
+      "/assets/project-images/books/reif-03.png"
+    ],
+    "video": [],
+    "projectLink": "https://entrances-exits.com/"
+  },
+  {
+    "id": 6,
+    "title": "Strata",
+    "date": "April 2016",
+    "filterTags": "code javascript frameworks",
+    "tagList": ["javascript", "web-audio-API", "SCSS", "Angular", "Grunt", "Gulp"],
+    "content": "The year is 2116. Eugenics experiments have failed to curb the city's dense population, which drowns in perpetual shadows cast by a layer of giant towers scraping the stratosphere miles above. Further below an ancient and mysterious world crumbles... STRATA is a book about the future, made for the future. Directed and illustrated by Tommy Lee Edwards, with music and sound design by I Speak Machine, it comprises science fiction and essays by eight stellar writers. This was another digital book I worked on while at Google Creative Lab",
+    "featureImage": "/assets/project-images/books/strata.png",
+    "image": [
+      "/assets/project-images/books/penguin.jpg",
+      "/assets/project-images/books/strata-paging.png",
+      "/assets/project-images/books/strata-icon.png"
+    ],
+    "video": [],
+    "projectLink": "https://strata.world/"
+  },
+  {
+    "id": 7,
+    "title": "All this Rotting",
+    "date": "April 2016",
+    "filterTags": "code threejs javascript frameworks animation",
+    "tagList": ["Threejs", "SCSS", "Angular", "Grunt", "Gulp"],
+    "content": "Another book I worked on while at Google Creative Lab for Editions At Play. Written by Alan Trotter, this is the book that loses its memory. Built using Angular.js, Three.js and Compass. It uses the accelerometer in a person's phone and on particular pages text shakes or falls depending on your movement/interaction with the story.",
+    "featureImage": "/assets/project-images/books/all-this-rotting.png",
+    "image": [
+      "/assets/project-images/books/all-this-rotting-insitu.jpg",
+      "/assets/project-images/books/ATR-tablet.png"
+    ],
+    "video": [],
+    "projectLink": "https://allthisrotting.com/#/"
+  },
+  {
+    "id": 8,
+    "title": "BTS data vis",
+    "date": "October 2014",
+    "filterTags": "javascript code datavis design ux frameworks",
+    "tagList": ["datavis", "react", "d3", "design", "ui/ux"],
+    "content": "This is a collection of projects I worked on at my time at Arup. Bureau of Transport Statistics is apart of Transport for NSW. A range of different data visualisations were built to present their collection of data to the public. Many of the visualisations I worked closely on are private and not public facing. My involvement in the development of these visualisations you see here varied from each one and my roles varied from basic data manipulation, preparation and bug fixing through to building the web apps from the ground up.",
+    "featureImage": "/assets/project-images/bts/bts-ins.png",
+    "image": [
+      "/assets/project-images/bts/bts-tz.png",
+      "/assets/project-images/bts/bts-lga.png",
+      "/assets/project-images/bts/pie-chart.png"
+    ],
+    "video": [
+      "//player.vimeo.com/video/54991203?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/54991204?byline=0&amp;portrait=0&amp;color=7BC794",
+      "//player.vimeo.com/video/52988457?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/51874767?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/54505413?byline=0&amp;color=7BC794"
+    ],
+    "projectLink": "http://www.bts.nsw.gov.au/Data-Visualisations"
+  },
+  {
+    "id": 9,
+    "title": "Pong",
+    "date": "January 2015",
+    "filterTags": "javascript design ",
+    "tagList": ["Javascript", "Leap Motion", "Design"],
+    "content": "This project was built using vanilla JS and a Leap Motion, I worked on this while I was at Arup Digital. It was for a work client party to showcase different things that we could do, to play the game visitors were invited to use the leap motion as the controller for the game. People would just have to move their hand left or right to move their paddle and play against a computer or another player. We were given sometime to think about what we could build for the event and planned that it should be something engaging and playful. It was nice to see this whole project come together in a day's work, while playing with something new and interesting.",
+    "featureImage": "/assets/project-images/arup/pong.png",
+    "image": [
+      "/assets/project-images/arup/leapmotion.png"
+    ],
+    "video": [
+      "//player.vimeo.com/video/54991203?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/54991204?byline=0&amp;portrait=0&amp;color=7BC794",
+      "//player.vimeo.com/video/52988457?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/51874767?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/54505413?byline=0&amp;color=7BC794"
+    ],
+    "projectLink": ""
+  },
+  {
+    "id": 10,
+    "title": "Mini-projects",
+    "date": "December 2014",
+    "filterTags": "rails javascript ux",
+    "tagList": ["javascript", "rails", "CMS"],
+    "content": "While at Arup I had the pleasure of building a few mini projects for internal day's. They usually involved building a CMS or building a platform for employees to post, like, share and veiw relevant information about that specific event/initiative. These projects were always fun as the deadlines were short and the brief was small and flexible. This made it a good way to keep up with a full range of skills and try out different features I was interested in. ",
+    "featureImage": "/assets/project-images/arup/ARUP_logo.jpg",
+    "image": [
+      "/assets/project-images/arup/operahouse-site.png",
+      "/assets/project-images/arup/crowdsourcing.png"
+    ],
+    "video": [],
+    "projectLink": ""
+  },
+  {
+    "id": 11,
+    "title": "Specimen",
+    "date": "01 September 2015",
+    "filterTags": "animation design",
+    "tagList": ["Realfow", "After Effects", "Maya", "Cinema4D"],
+    "content": "Billy Blue college of design holds a unique exhibition for each graduating class. The project consisted of a few different teams of people including communication, branded, spacial, digital and a team of lecturers. I worked in the digital team creating animations which were used for pod projections, video elements on the website, promo teasers for the event and also used for promotional posters. Working on this project was a blast and also a great development of my skills.",
+    "featureImage": "/assets/project-images/animation/specimen.jpg",
+    "image": [
+      "/assets/project-images/animation/specimen3.jpg",
+      "/assets/project-images/animation/specimen-website.jpg",
+      "/assets/project-images/animation/specimen-posters.jpg",
+      "/assets/project-images/animation/spoecimen-event.jpg"
+    ],
+    "video": [
+      "//player.vimeo.com/video/54991203?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/54991204?byline=0&amp;portrait=0&amp;color=7BC794",
+      "//player.vimeo.com/video/52988457?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/51874767?byline=0&amp;color=7BC794",
+      "//player.vimeo.com/video/54505413?byline=0&amp;color=7BC794"
+    ],
+    "projectLink": "https://vimeo.com/60140091"
+  },
+  {
+    "id": 12,
+    "title": "Lightbulb Quote",
+    "date": "01 June 2011",
+    "filterTags": "animation design",
+    "tagList": ["After Effects", "Illustrator"],
+    "content": "I created this short animation in 2011. The brief was to create an animation on using letters, which represented the quote from Albert Einstein 'To invent something, all you need is imagination and a big pile of junk'. I complemented this with the song by Gene Simons, Imagination. I created all the elements in Illustrator and animated the project in After Effects.",
+    "featureImage": "/assets/project-images/animation/lightbulb-2.png",
+    "image": [
+      "/assets/project-images/animation/lightbulb.png",
+      "/assets/project-images/animation/lightbulb-1.png"
+    ],
+    "video": [],
+    "projectLink": "http://vimeo.com/52988455"
+  },
+  {
+    "id": 13,
+    "title": "Neurosky Visualiser",
+    "date": "01 September 2015",
+    "filterTags": "code datavis",
+    "tagList": ["javascript", "Neurosky Headset", "D3"],
+    "content": "Work in progress currently. Working on creating a visualizer for the Neurosky Brainsensor, the visualizer will help us analyse data faster and be able to identify patterns in data corresponding to certain actions executed while wearing the sensor. Working with Charlie Gerard.",
+    "featureImage": "images/nuero.png",
+    "image": [],
+    "video": [],
+    "projectLink": ""
+  }
+]

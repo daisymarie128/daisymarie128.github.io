@@ -17,7 +17,7 @@
     "tagList": ["javascript", "node", "code", "ui/ux"],
     "title": "The Christmas Snowflake - Wonderbly",
     "date": "October 2017",
-    "content": "I worked along side project managers, designers and creatives in order to create this book.",
+    "content": "This was a product released by Wonderbly and was a special Christmas edition to their product range. I worked along side project managers, designers and creatives in order to create this book. Built with ES6, Node, SCSS, Jade, with Mocha for testing and SVGs for some parts of the book. An essential task in this role was monitoring remote logs via SSH to urgently identify and remedy any ordering problems.",
     "featureImage": "/assets/project-images/wonderbly/scs/hero-image.jpg",
     "image": [      
       "/assets/project-images/wonderbly/scs/scs-box.jpg",
@@ -42,10 +42,10 @@
   }, {
     "id": 4,
     "filterTags": "javascript node react redux mocha UX",
-    "tagList": ["javascript", "node", "code", "ui/ux"],
+    "tagList": ["javascript", "react", "node", "code", "ui/ux"],
     "title": "Wonderbly website",
     "date": "September 2017",
-    "content": "",
+    "content": "I was incharge of creating the custom pages for the new product coming out. This required new form fields, with UX consideration, because this product had a unique take on personalisation that our other products used to. I carried this work out intergrating into the already built website using React and Redux.",
     "featureImage": "/assets/project-images/wonderbly/website/wonderbly-logo.jpeg",
     "image": [      
       "/assets/project-images/wonderbly/website/wonderbly-long-image.jpg",
@@ -59,7 +59,7 @@
     "tagList": ["javascript", "node", "code", "ui/ux"],
     "title": "The Littlest Bear - Wonderbly",
     "date": "July 2017",
-    "content": "This was the first PHISICAL book I've made. I worked along side UX, Designers and creatives to release this book.",
+    "content": "This was the first PHYSICAL book I've made. I worked along side UX, Designers and creatives to release this book. I developed this book using our inhouse software with ES6, Node and SCSS, for testing I used Mocha.js",
     "featureImage": "/assets/project-images/wonderbly/tlb/tlb-hero-image.jpg",
     "image": [      
       "/assets/project-images/wonderbly/tlb/tlb-party.jpg",
@@ -74,7 +74,7 @@
     "tagList": ["javascript", "python", "code"],
     "title": "24: Legacy",
     "date": "April 2017",
-    "content": "This was a prject I worked on for the 24 legacy tv serious, which encorporated collaboration from designers and creatives to deliver this on time.",
+    "content": "This was a project I worked on for the 24 legacy tv serious, which encorporated collaboration from designers and creatives to deliver this on time.",
     "featureImage": "/assets/project-images/24-legacy/24-legacy-hero.jpg",
     "image": [
       "/assets/project-images/24-legacy/24-legacy-game.jpg",
@@ -87,7 +87,7 @@
     "tagList": ["javascript", "frameworks", "code"],
     "title": "Halo - Digital Landfill",
     "date": "March 2017",
-    "content": "...",
+    "content": "This was a project I worked on while at Stink Studios, built using React, Redux and the canvas API. This was built with a short turn around time of a week, and aimed to get the message across of how much coffee capsules have an effect on the environment. The site is an endless scrolling pile of coffee capsules which has specific scroll markers with facts that pop up",
     "featureImage": "/assets/project-images/halo-dl/halo-hero.jpg",
     "image": [
       "/assets/project-images/halo-dl/halo-logo.jpg",
@@ -103,7 +103,7 @@
     "tagList": ["javascript", "frameworks", "code"],
     "title": "Stink Studios Website",
     "date": "January 2017",
-    "content": "...",
+    "content": "This was a project I worked on while at Stink Studios, built using React, Redux and PostCSS. We spent careful amounts of time getting all the interactions feeling seemless. Everything down to small link hovers had love and 100% of out attention to detail looked at. A heavy amount of CSS animations were used in making this site feel beautiful to interact with.",
     "featureImage": "/assets/project-images/stink/stink-website.png",
     "image": [
       "/assets/project-images/stink/stink-mobile.png",
@@ -116,7 +116,7 @@
     "tagList": ["javascript", "python", "canvas", "pixi.js", "react", "readux", "code"],
     "title": "Strava - My Year in Sport",
     "date": "November 2016",
-    "content": "A unique personalised film that tells the story of every Strava athlete's 2016. I primarily worked on the loader and also form handling and UI.",
+    "content": "A unique personalised film that tells the story of every Strava athlete's 2016. I primarily worked on the loader and also form handling and UI. This was all built with React, Redux, SCSS with canvas for the loading animation. Experiments for different options for the loader were built with canvas and PIXI.js to get the look right.",
     "featureImage": "/assets/project-images/strava/strava-logo.png",
     "image": [
       "/assets/project-images/strava/strava.jpg",
